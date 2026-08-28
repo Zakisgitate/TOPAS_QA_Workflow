@@ -5,34 +5,34 @@
 
 includeFile = source.txt
 
-# Integral depth dose in a 150 mm diameter cylinder, 212 bins of 1.99528 mm
+# Integral depth dose in a 150 mm diameter cylinder, 236 bins of 2.00424 mm
 s:Sc/WaterPhantomIdd/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomIdd/Component = "IddCylinder"
 sv:Sc/WaterPhantomIdd/Report = 1 "Sum"
 s:Sc/WaterPhantomIdd/OutputType = "binary"
-s:Sc/WaterPhantomIdd/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/idd"
+s:Sc/WaterPhantomIdd/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/idd"
 s:Sc/WaterPhantomIdd/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomIdd/OutputAfterRun = "False"
 b:Sc/WaterPhantomIdd/OutputToConsole = "False"
 b:Sc/WaterPhantomIdd/Visualize = "False"
 
-# Dose-weighted hadron LETd in a 150 mm diameter cylinder, 212 bins of 1.99528 mm
+# Dose-weighted hadron LETd in a 150 mm diameter cylinder, 236 bins of 2.00424 mm
 s:Sc/WaterPhantomLetd/Quantity = "myHadronLET"
 s:Sc/WaterPhantomLetd/Component = "LetdCylinder"
 s:Sc/WaterPhantomLetd/WeightBy = "dose"
 s:Sc/WaterPhantomLetd/OutputType = "binary"
-s:Sc/WaterPhantomLetd/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/letd"
+s:Sc/WaterPhantomLetd/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/letd"
 s:Sc/WaterPhantomLetd/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomLetd/OutputAfterRun = "False"
 b:Sc/WaterPhantomLetd/OutputToConsole = "False"
 b:Sc/WaterPhantomLetd/Visualize = "False"
 
-# Central-axis depth dose in a 10 mm diameter cylinder, 212 bins of 1.99528 mm
+# Central-axis depth dose in a 10 mm diameter cylinder, 236 bins of 2.00424 mm
 s:Sc/WaterPhantomPdd/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomPdd/Component = "PddCylinder"
 sv:Sc/WaterPhantomPdd/Report = 1 "Sum"
 s:Sc/WaterPhantomPdd/OutputType = "binary"
-s:Sc/WaterPhantomPdd/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/pdd"
+s:Sc/WaterPhantomPdd/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/pdd"
 s:Sc/WaterPhantomPdd/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomPdd/OutputAfterRun = "False"
 b:Sc/WaterPhantomPdd/OutputToConsole = "False"
@@ -43,7 +43,7 @@ s:Sc/WaterPhantomProfileX01/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomProfileX01/Component = "ProfileX01"
 sv:Sc/WaterPhantomProfileX01/Report = 1 "Sum"
 s:Sc/WaterPhantomProfileX01/OutputType = "binary"
-s:Sc/WaterPhantomProfileX01/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/profile_x_01"
+s:Sc/WaterPhantomProfileX01/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/profile_x_01"
 s:Sc/WaterPhantomProfileX01/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomProfileX01/OutputAfterRun = "False"
 b:Sc/WaterPhantomProfileX01/OutputToConsole = "False"
@@ -54,73 +54,73 @@ s:Sc/WaterPhantomProfileY01/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomProfileY01/Component = "ProfileY01"
 sv:Sc/WaterPhantomProfileY01/Report = 1 "Sum"
 s:Sc/WaterPhantomProfileY01/OutputType = "binary"
-s:Sc/WaterPhantomProfileY01/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/profile_y_01"
+s:Sc/WaterPhantomProfileY01/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/profile_y_01"
 s:Sc/WaterPhantomProfileY01/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomProfileY01/OutputAfterRun = "False"
 b:Sc/WaterPhantomProfileY01/OutputToConsole = "False"
 b:Sc/WaterPhantomProfileY01/Visualize = "False"
 
-# Lateral X profile at water depth 63.47 mm
+# Lateral X profile at water depth 133.94 mm
 s:Sc/WaterPhantomProfileX02/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomProfileX02/Component = "ProfileX02"
 sv:Sc/WaterPhantomProfileX02/Report = 1 "Sum"
 s:Sc/WaterPhantomProfileX02/OutputType = "binary"
-s:Sc/WaterPhantomProfileX02/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/profile_x_02"
+s:Sc/WaterPhantomProfileX02/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/profile_x_02"
 s:Sc/WaterPhantomProfileX02/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomProfileX02/OutputAfterRun = "False"
 b:Sc/WaterPhantomProfileX02/OutputToConsole = "False"
 b:Sc/WaterPhantomProfileX02/Visualize = "False"
 
-# Lateral Y profile at water depth 63.47 mm
+# Lateral Y profile at water depth 133.94 mm
 s:Sc/WaterPhantomProfileY02/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomProfileY02/Component = "ProfileY02"
 sv:Sc/WaterPhantomProfileY02/Report = 1 "Sum"
 s:Sc/WaterPhantomProfileY02/OutputType = "binary"
-s:Sc/WaterPhantomProfileY02/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/profile_y_02"
+s:Sc/WaterPhantomProfileY02/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/profile_y_02"
 s:Sc/WaterPhantomProfileY02/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomProfileY02/OutputAfterRun = "False"
 b:Sc/WaterPhantomProfileY02/OutputToConsole = "False"
 b:Sc/WaterPhantomProfileY02/Visualize = "False"
 
-# Lateral X profile at water depth 126.93 mm
+# Lateral X profile at water depth 267.89 mm
 s:Sc/WaterPhantomProfileX03/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomProfileX03/Component = "ProfileX03"
 sv:Sc/WaterPhantomProfileX03/Report = 1 "Sum"
 s:Sc/WaterPhantomProfileX03/OutputType = "binary"
-s:Sc/WaterPhantomProfileX03/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/profile_x_03"
+s:Sc/WaterPhantomProfileX03/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/profile_x_03"
 s:Sc/WaterPhantomProfileX03/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomProfileX03/OutputAfterRun = "False"
 b:Sc/WaterPhantomProfileX03/OutputToConsole = "False"
 b:Sc/WaterPhantomProfileX03/Visualize = "False"
 
-# Lateral Y profile at water depth 126.93 mm
+# Lateral Y profile at water depth 267.89 mm
 s:Sc/WaterPhantomProfileY03/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomProfileY03/Component = "ProfileY03"
 sv:Sc/WaterPhantomProfileY03/Report = 1 "Sum"
 s:Sc/WaterPhantomProfileY03/OutputType = "binary"
-s:Sc/WaterPhantomProfileY03/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/profile_y_03"
+s:Sc/WaterPhantomProfileY03/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/profile_y_03"
 s:Sc/WaterPhantomProfileY03/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomProfileY03/OutputAfterRun = "False"
 b:Sc/WaterPhantomProfileY03/OutputToConsole = "False"
 b:Sc/WaterPhantomProfileY03/Visualize = "False"
 
-# Lateral X profile at water depth 129.18 mm
+# Lateral X profile at water depth 270.18 mm
 s:Sc/WaterPhantomProfileX04/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomProfileX04/Component = "ProfileX04"
 sv:Sc/WaterPhantomProfileX04/Report = 1 "Sum"
 s:Sc/WaterPhantomProfileX04/OutputType = "binary"
-s:Sc/WaterPhantomProfileX04/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/profile_x_04"
+s:Sc/WaterPhantomProfileX04/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/profile_x_04"
 s:Sc/WaterPhantomProfileX04/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomProfileX04/OutputAfterRun = "False"
 b:Sc/WaterPhantomProfileX04/OutputToConsole = "False"
 b:Sc/WaterPhantomProfileX04/Visualize = "False"
 
-# Lateral Y profile at water depth 129.18 mm
+# Lateral Y profile at water depth 270.18 mm
 s:Sc/WaterPhantomProfileY04/Quantity = "DoseToMedium"
 s:Sc/WaterPhantomProfileY04/Component = "ProfileY04"
 sv:Sc/WaterPhantomProfileY04/Report = 1 "Sum"
 s:Sc/WaterPhantomProfileY04/OutputType = "binary"
-s:Sc/WaterPhantomProfileY04/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E261p03_100k_D150_LETd2_grid2_retry20260828/profile_y_04"
+s:Sc/WaterPhantomProfileY04/OutputFile = "../../topas_output/water_phantom/hzRoom1_90_RF4_250701_E399p92_100k_D150_LETd2_grid2_retry20260828/profile_y_04"
 s:Sc/WaterPhantomProfileY04/IfOutputFileAlreadyExists = "Exit"
 b:Sc/WaterPhantomProfileY04/OutputAfterRun = "False"
 b:Sc/WaterPhantomProfileY04/OutputToConsole = "False"

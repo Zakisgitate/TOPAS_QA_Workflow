@@ -1,7 +1,7 @@
 # AUTO-GENERATED FILE -- DO NOT EDIT BY HAND
 # Generator: scripts/16_generate_water_phantom_spot.py
 # Beam model mode: COMMISSIONED
-# Nominal energy: 261.03 MeV/u
+# Nominal energy: 399.92 MeV/u
 # Requested spot at isocenter: IEC X=0 mm, Y=0 mm
 # Spot-axis geometric back-check error: 0 mm
 # Histories in a single Geant4 run: 100000
@@ -21,13 +21,13 @@ s:So/WaterPhantomSpot/Type = "Emittance"
 s:So/WaterPhantomSpot/Component = "SpotPosition"
 s:So/WaterPhantomSpot/EmittanceParticle = "GenericIon(6,12,6)"
 s:So/WaterPhantomSpot/EmittanceEnergySpectrumType = "Discrete"
-dv:So/WaterPhantomSpot/EmittanceEnergySpectrumValues = 16 2982.393058 2988 2988.393058 3000.393058 3006 3006.393058 3012 3018.393058 3030 3036 3036.393058 3054.393058 3060 3066 3066.393058 3072.393058 MeV
-uv:So/WaterPhantomSpot/EmittanceEnergySpectrumWeights = 16 6.078532606e-17 0.1452813312 2.168398191e-16 2.342267713e-16 0.1798602867 5.096930926e-17 0.1317915265 4.128184329e-16 0.08897902538 0.226136799 3.563470008e-16 1.72054147e-16 0.1226866731 0.1052643581 2.319821246e-16 6.571977378e-17
+dv:So/WaterPhantomSpot/EmittanceEnergySpectrumValues = 8 4698 4710 4722 4728 4740 4746 4764 4770 MeV
+uv:So/WaterPhantomSpot/EmittanceEnergySpectrumWeights = 8 0.04268644116 0.1857669178 0.1452095616 0.1325073515 0.1519491554 0.1422541315 0.1783981807 0.02122826049
 s:So/WaterPhantomSpot/Distribution = "BiGaussian"
-d:So/WaterPhantomSpot/SigmaX = 1.844807555 mm
-d:So/WaterPhantomSpot/SigmaY = 1.844807555 mm
-u:So/WaterPhantomSpot/SigmaXprime = 0.00338972983
-u:So/WaterPhantomSpot/SigmaYprime = 0.00338972983
-u:So/WaterPhantomSpot/CorrelationX = 0.1196645939
-u:So/WaterPhantomSpot/CorrelationY = 0.1196645939
+d:So/WaterPhantomSpot/SigmaX = 2.343330296 mm
+d:So/WaterPhantomSpot/SigmaY = 2.343330296 mm
+u:So/WaterPhantomSpot/SigmaXprime = 0.002984262374
+u:So/WaterPhantomSpot/SigmaYprime = 0.002984262374
+u:So/WaterPhantomSpot/CorrelationX = -0.4280926295
+u:So/WaterPhantomSpot/CorrelationY = -0.4280926295
 i:So/WaterPhantomSpot/NumberOfHistoriesInRun = 100000

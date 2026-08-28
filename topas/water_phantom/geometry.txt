@@ -19,10 +19,10 @@ s:Ge/WaterPhantom/Parent = "World"
 s:Ge/WaterPhantom/Material = "G4_WATER"
 d:Ge/WaterPhantom/HLX = 100 mm
 d:Ge/WaterPhantom/HLY = 100 mm
-d:Ge/WaterPhantom/HLZ = 211.5 mm
+d:Ge/WaterPhantom/HLZ = 236.5 mm
 d:Ge/WaterPhantom/TransX = 0. mm
 d:Ge/WaterPhantom/TransY = 0. mm
-d:Ge/WaterPhantom/TransZ = 61.5 mm
+d:Ge/WaterPhantom/TransZ = 86.5 mm
 s:Ge/WaterPhantom/Color = "blue"
 s:Ge/WaterPhantom/DrawingStyle = "WireFrame"
 
@@ -50,51 +50,51 @@ d:Ge/SpotPosition/RotZ = 0. deg
 # Scoring components live in a parallel world so they cannot displace or
 # overlap the water. Every one of them has exactly one binned axis.
 
-# Integral depth dose in a 150 mm diameter cylinder, 212 bins of 1.99528 mm
+# Integral depth dose in a 150 mm diameter cylinder, 236 bins of 2.00424 mm
 s:Ge/IddCylinder/Type = "TsCylinder"
 s:Ge/IddCylinder/Parent = "World"
 b:Ge/IddCylinder/IsParallel = "True"
 d:Ge/IddCylinder/RMin = 0. mm
 d:Ge/IddCylinder/RMax = 75 mm
-d:Ge/IddCylinder/HL = 211.5 mm
+d:Ge/IddCylinder/HL = 236.5 mm
 d:Ge/IddCylinder/TransX = 0 mm
 d:Ge/IddCylinder/TransY = 0 mm
-d:Ge/IddCylinder/TransZ = 61.5 mm
+d:Ge/IddCylinder/TransZ = 86.5 mm
 i:Ge/IddCylinder/RBins = 1
 i:Ge/IddCylinder/PhiBins = 1
-i:Ge/IddCylinder/ZBins = 212
+i:Ge/IddCylinder/ZBins = 236
 s:Ge/IddCylinder/Color = "magenta"
 s:Ge/IddCylinder/DrawingStyle = "WireFrame"
 
-# Central-axis depth dose in a 10 mm diameter cylinder, 212 bins of 1.99528 mm
+# Central-axis depth dose in a 10 mm diameter cylinder, 236 bins of 2.00424 mm
 s:Ge/PddCylinder/Type = "TsCylinder"
 s:Ge/PddCylinder/Parent = "World"
 b:Ge/PddCylinder/IsParallel = "True"
 d:Ge/PddCylinder/RMin = 0. mm
 d:Ge/PddCylinder/RMax = 5 mm
-d:Ge/PddCylinder/HL = 211.5 mm
+d:Ge/PddCylinder/HL = 236.5 mm
 d:Ge/PddCylinder/TransX = 0 mm
 d:Ge/PddCylinder/TransY = 0 mm
-d:Ge/PddCylinder/TransZ = 61.5 mm
+d:Ge/PddCylinder/TransZ = 86.5 mm
 i:Ge/PddCylinder/RBins = 1
 i:Ge/PddCylinder/PhiBins = 1
-i:Ge/PddCylinder/ZBins = 212
+i:Ge/PddCylinder/ZBins = 236
 s:Ge/PddCylinder/Color = "red"
 s:Ge/PddCylinder/DrawingStyle = "WireFrame"
 
-# Dose-weighted hadron LETd in a 150 mm diameter cylinder, 212 bins of 1.99528 mm
+# Dose-weighted hadron LETd in a 150 mm diameter cylinder, 236 bins of 2.00424 mm
 s:Ge/LetdCylinder/Type = "TsCylinder"
 s:Ge/LetdCylinder/Parent = "World"
 b:Ge/LetdCylinder/IsParallel = "True"
 d:Ge/LetdCylinder/RMin = 0. mm
 d:Ge/LetdCylinder/RMax = 75 mm
-d:Ge/LetdCylinder/HL = 211.5 mm
+d:Ge/LetdCylinder/HL = 236.5 mm
 d:Ge/LetdCylinder/TransX = 0 mm
 d:Ge/LetdCylinder/TransY = 0 mm
-d:Ge/LetdCylinder/TransZ = 61.5 mm
+d:Ge/LetdCylinder/TransZ = 86.5 mm
 i:Ge/LetdCylinder/RBins = 1
 i:Ge/LetdCylinder/PhiBins = 1
-i:Ge/LetdCylinder/ZBins = 212
+i:Ge/LetdCylinder/ZBins = 236
 s:Ge/LetdCylinder/Color = "green"
 s:Ge/LetdCylinder/DrawingStyle = "WireFrame"
 
@@ -130,7 +130,7 @@ i:Ge/ProfileY01/ZBins = 1
 s:Ge/ProfileY01/Color = "yellow"
 s:Ge/ProfileY01/DrawingStyle = "WireFrame"
 
-# Lateral X profile bar at water depth 63.47 mm
+# Lateral X profile bar at water depth 133.94 mm
 s:Ge/ProfileX02/Type = "TsBox"
 s:Ge/ProfileX02/Parent = "World"
 b:Ge/ProfileX02/IsParallel = "True"
@@ -139,14 +139,14 @@ d:Ge/ProfileX02/HLY = 1 mm
 d:Ge/ProfileX02/HLZ = 1 mm
 d:Ge/ProfileX02/TransX = 0 mm
 d:Ge/ProfileX02/TransY = 0 mm
-d:Ge/ProfileX02/TransZ = -86.53 mm
+d:Ge/ProfileX02/TransZ = -16.06 mm
 i:Ge/ProfileX02/XBins = 240
 i:Ge/ProfileX02/YBins = 1
 i:Ge/ProfileX02/ZBins = 1
 s:Ge/ProfileX02/Color = "yellow"
 s:Ge/ProfileX02/DrawingStyle = "WireFrame"
 
-# Lateral Y profile bar at water depth 63.47 mm
+# Lateral Y profile bar at water depth 133.94 mm
 s:Ge/ProfileY02/Type = "TsBox"
 s:Ge/ProfileY02/Parent = "World"
 b:Ge/ProfileY02/IsParallel = "True"
@@ -155,14 +155,14 @@ d:Ge/ProfileY02/HLY = 60 mm
 d:Ge/ProfileY02/HLZ = 1 mm
 d:Ge/ProfileY02/TransX = 0 mm
 d:Ge/ProfileY02/TransY = 0 mm
-d:Ge/ProfileY02/TransZ = -86.53 mm
+d:Ge/ProfileY02/TransZ = -16.06 mm
 i:Ge/ProfileY02/XBins = 1
 i:Ge/ProfileY02/YBins = 240
 i:Ge/ProfileY02/ZBins = 1
 s:Ge/ProfileY02/Color = "yellow"
 s:Ge/ProfileY02/DrawingStyle = "WireFrame"
 
-# Lateral X profile bar at water depth 126.93 mm
+# Lateral X profile bar at water depth 267.89 mm
 s:Ge/ProfileX03/Type = "TsBox"
 s:Ge/ProfileX03/Parent = "World"
 b:Ge/ProfileX03/IsParallel = "True"
@@ -171,14 +171,14 @@ d:Ge/ProfileX03/HLY = 1 mm
 d:Ge/ProfileX03/HLZ = 1 mm
 d:Ge/ProfileX03/TransX = 0 mm
 d:Ge/ProfileX03/TransY = 0 mm
-d:Ge/ProfileX03/TransZ = -23.07 mm
+d:Ge/ProfileX03/TransZ = 117.89 mm
 i:Ge/ProfileX03/XBins = 240
 i:Ge/ProfileX03/YBins = 1
 i:Ge/ProfileX03/ZBins = 1
 s:Ge/ProfileX03/Color = "yellow"
 s:Ge/ProfileX03/DrawingStyle = "WireFrame"
 
-# Lateral Y profile bar at water depth 126.93 mm
+# Lateral Y profile bar at water depth 267.89 mm
 s:Ge/ProfileY03/Type = "TsBox"
 s:Ge/ProfileY03/Parent = "World"
 b:Ge/ProfileY03/IsParallel = "True"
@@ -187,14 +187,14 @@ d:Ge/ProfileY03/HLY = 60 mm
 d:Ge/ProfileY03/HLZ = 1 mm
 d:Ge/ProfileY03/TransX = 0 mm
 d:Ge/ProfileY03/TransY = 0 mm
-d:Ge/ProfileY03/TransZ = -23.07 mm
+d:Ge/ProfileY03/TransZ = 117.89 mm
 i:Ge/ProfileY03/XBins = 1
 i:Ge/ProfileY03/YBins = 240
 i:Ge/ProfileY03/ZBins = 1
 s:Ge/ProfileY03/Color = "yellow"
 s:Ge/ProfileY03/DrawingStyle = "WireFrame"
 
-# Lateral X profile bar at water depth 129.18 mm
+# Lateral X profile bar at water depth 270.18 mm
 s:Ge/ProfileX04/Type = "TsBox"
 s:Ge/ProfileX04/Parent = "World"
 b:Ge/ProfileX04/IsParallel = "True"
@@ -203,14 +203,14 @@ d:Ge/ProfileX04/HLY = 1 mm
 d:Ge/ProfileX04/HLZ = 1 mm
 d:Ge/ProfileX04/TransX = 0 mm
 d:Ge/ProfileX04/TransY = 0 mm
-d:Ge/ProfileX04/TransZ = -20.82 mm
+d:Ge/ProfileX04/TransZ = 120.18 mm
 i:Ge/ProfileX04/XBins = 240
 i:Ge/ProfileX04/YBins = 1
 i:Ge/ProfileX04/ZBins = 1
 s:Ge/ProfileX04/Color = "yellow"
 s:Ge/ProfileX04/DrawingStyle = "WireFrame"
 
-# Lateral Y profile bar at water depth 129.18 mm
+# Lateral Y profile bar at water depth 270.18 mm
 s:Ge/ProfileY04/Type = "TsBox"
 s:Ge/ProfileY04/Parent = "World"
 b:Ge/ProfileY04/IsParallel = "True"
@@ -219,7 +219,7 @@ d:Ge/ProfileY04/HLY = 60 mm
 d:Ge/ProfileY04/HLZ = 1 mm
 d:Ge/ProfileY04/TransX = 0 mm
 d:Ge/ProfileY04/TransY = 0 mm
-d:Ge/ProfileY04/TransZ = -20.82 mm
+d:Ge/ProfileY04/TransZ = 120.18 mm
 i:Ge/ProfileY04/XBins = 1
 i:Ge/ProfileY04/YBins = 240
 i:Ge/ProfileY04/ZBins = 1
