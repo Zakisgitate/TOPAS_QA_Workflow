@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "package_kind": "beam_commissioning",
+  "package_version": "REPLACE_WITH_IMMUTABLE_VERSION",
+  "subject": {
+    "treatment_machine_name": "EXACT_DICOM_TREATMENT_MACHINE_NAME"
+  },
+  "units": {
+    "energy_spectrum": "total MeV per carbon ion",
+    "phase_space_position_sigma": "mm",
+    "phase_space_angular_sigma": "rad",
+    "number_per_mu": "primary carbon ions per MU",
+    "measured_idd_depth": "mm",
+    "measured_spot_sigma": "mm",
+    "commissioned_energy": "MeV/u"
+  },
+  "files": {
+    "profile": "profile.json",
+    "particle_calibration": "particle_calibration.json",
+    "energy_spectrum": "energy_spectrum.json",
+    "phase_space": "phase_space.json",
+    "number_per_mu": "number_per_mu.txt",
+    "measured_idd": "measured_idd.csv",
+    "measured_spot_sigma": "measured_spot_sigma.csv",
+    "energy_list": "commissioned_energy_list.txt"
+  },
+  "sha256": {
+    "profile": "REPLACE_WITH_64_LOWERCASE_HEX",
+    "particle_calibration": "REPLACE_WITH_64_LOWERCASE_HEX",
+    "energy_spectrum": "REPLACE_WITH_64_LOWERCASE_HEX",
+    "phase_space": "REPLACE_WITH_64_LOWERCASE_HEX",
+    "number_per_mu": "REPLACE_WITH_64_LOWERCASE_HEX",
+    "measured_idd": "REPLACE_WITH_64_LOWERCASE_HEX",
+    "measured_spot_sigma": "REPLACE_WITH_64_LOWERCASE_HEX",
+    "energy_list": "REPLACE_WITH_64_LOWERCASE_HEX"
+  },
+  "provenance": {
+    "source": "INSTITUTION_AND_COMMISSIONING_DATASET",
+    "created_at": "YYYY-MM-DDTHH:MM:SS+TIMEZONE",
+    "method": "DESCRIBE_MODEL_DERIVATION"
+  },
+  "approval": {
+    "status": "approved",
+    "approved_by": "REVIEWER_NAME_OR_CONTROLLED_ID",
+    "approved_at": "YYYY-MM-DDTHH:MM:SS+TIMEZONE",
+    "evidence": "CONTROLLED_RECORD_OR_EVIDENCE_REFERENCE"
+  }
+}

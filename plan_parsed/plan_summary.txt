@@ -1,0 +1,56 @@
+TPS-TOPAS RT Ion Plan parsing summary
+=======================================
+Input RTPLAN (read-only): /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTPLAN/RTPLAN_00001.dcm
+SOPClassUID: 1.2.840.10008.5.1.4.1.1.481.8 (RT Ion Plan Storage)
+SOPInstanceUID: 1.2.826.0.1.3680043.10.1049.20260427104048539000015845
+FrameOfReferenceUID: 1.3.12.2.1107.5.99.3.99.107016.30000019022311404450200000242
+Plan label: cc
+Plan name: hzroom1-h-rf4-low
+Patient position: HFS
+Plan approval: APPROVED
+
+Ion and delivery:
+  Ion: Carbon-12 (Z=6, A=12, charge=+6)
+  Scan mode: MODULATED
+  Number of beams: 1
+  Primary dosimeter unit(s): ['MU']
+  Control points: 106
+  Active energy layers: 53
+  Filtered all-zero control points: 53
+  Delivered spots: 56349
+  Energy range: 120.26 to 265.43 MeV/u
+  Spot X range: -56.3 to 56.3 mm
+  Spot Y range: -57 to 58 mm
+  Spot FWHM X range: 7.86545 to 14.3115 mm
+  Spot FWHM Y range: 7.86545 to 14.3115 mm
+  NumberOfPaintings values: [1]
+
+Meterset weights:
+  Sum of delivered spot weights: 1227723.91113 MU
+  Minimum/maximum spot weight: 10.4806 / 56.1604 MU
+  Relative-weight definition: PlanRelativeWeight_i = W_i / sum(all delivered spot W)
+  No MU-to-particle or absolute-dose conversion has been applied.
+  FinalCumulativeMetersetWeight: 1227723.9113000003 MU
+  Weight sum minus final cumulative: -0.000168141443282 MU
+
+Beam geometry (DICOM values; no IEC-to-TOPAS sign conversion):
+  Beam 1 (1): gantry=90.0 deg, couch=0.0 deg
+  Isocenter: [405.5, 355.5, 294.0] mm
+
+Range modulator(s):
+  MRF4: type=FIXED; description=Mini ridge filter 4mm; number=0
+  NOTE: Presence in RTPLAN is confirmed; no MRF geometry or commissioning model is implemented by this parser.
+
+RTDOSE references:
+  RTDOSE_00001.dcm: PHYSICAL / BEAM / GY; grid=153x152x201; references plan=True
+  RTDOSE_00002.dcm: EFFECTIVE / PLAN / GY; grid=153x152x201; references plan=True
+  RTDOSE_00003.dcm: PHYSICAL / PLAN / GY; grid=153x152x201; references plan=True
+
+Validation:
+  PASS: RT Ion Plan parsed successfully
+  No parser validation warnings
+
+Index conventions:
+  LayerIndex and SpotIndex are 1-based derived indices.
+  ControlPointIndex is the original DICOM value (0-based in this plan).
+  Only CPs containing at least one non-zero ScanSpotMetersetWeight are emitted as active layers.

@@ -1,0 +1,63 @@
+PLAN1699 Stage-8 low-statistics transport QA
+==============================================
+Status: PASS WITH BASELINE LIMITATIONS
+
+Run identity
+------------
+TOPAS / Geant4: 4.2.p3 / 11.3.p2
+Physics: g4em-standard_opt4, QGSP_BIC_HP, g4decay,
+         g4ion-binarycascade, g4h-elastic_HP, g4stopping
+Production cut: 0.05 mm
+Seed / threads: 1699 / 4
+Representative spots / energy layers / histories: 265 / 53 / 15000
+Histories per representative spot: 17 .. 252
+Elapsed real time: 231.686 s
+TOPAS completion / log error indicators: PASS / none
+
+Grid and output
+---------------
+TOPAS shape [Z,Y,X]: (153, 152, 201)
+TPS RPPD shape [Z,Y,X]: (153, 152, 201)
+Spacing [X,Y,Z]: [2.0, 2.0, 2.0] mm
+Binary values / bytes: 4674456 / 37395648
+Finite / nonzero / max / sum: True / 1319042 / 9.9068835e-05 / 0.77106753 Gy
+Dose outside water box fraction: 0.018605%
+
+Direction and transverse location
+---------------------------------
+Expected beam: patient +X toward -X
+Integrated dose at X > isocenter: MC 91.2003%; TPS 95.3789%
+Direction check: PASS
+MC dose centroid TOPAS [X,Y,Z]: [67.06058498294105, -2.500000231852425, -0.07904648715928284] mm
+TPS dose centroid TOPAS [X,Y,Z]: [76.9037799625057, -0.3698337131891158, 0.05283193015970762] mm
+QA-source history centroid patient [Y,Z]: [-2.24568, 0.0246] mm
+MC transverse 90% mass interval Y/Z: (-58.5, 59.5) / (-60.0, 60.0) mm
+TPS transverse 90% mass interval Y/Z: (-50.5, 49.5) / (-50.0, 50.0) mm
+Transverse mapping/bounds check: PASS for the representative-anchor QA design
+
+Depth/range coarse check
+------------------------
+Integral-depth peak: MC 37.000 mm; TPS 101.000 mm
+Distal R50: MC 137.000 mm; TPS 131.000 mm; difference +6.000 mm
+Distal R20: MC 143.000 mm; TPS 135.000 mm; difference +8.000 mm
+Distal R10: MC 177.000 mm; TPS 159.000 mm; difference +18.000 mm
+Interpretation: beam direction and gross range are plausible, but the uncommissioned
+baseline is about 6-8 mm deeper at R50/R20. R10 is less stable because of nuclear
+fragment tails and 15,000-history noise. Do not tune energy from this QA alone.
+
+Critical limitations
+--------------------
+The 265 spots are five spatial anchors per energy layer, not the complete 56,349-spot
+fluence map. Each layer total weight is preserved, but its transverse weight is shared
+equally among the five anchors. MRF4 geometry/WET, energy-range calibration, energy
+spread, angular/emittance model and absolute MU-to-primary calibration are absent.
+Therefore this result is suitable only for direction, field-bound and coarse-range QA.
+It is not evidence of quantitative TPS-vs-MC dose agreement and is not production dose.
+
+Files
+-----
+TOPAS dose: /Users/jiangzhenmin/Desktop/PLAN1699/topas_output/test/PLAN1699_low_statistics_DoseToMedium_TPSGrid.bin
+TOPAS header: /Users/jiangzhenmin/Desktop/PLAN1699/topas_output/test/PLAN1699_low_statistics_DoseToMedium_TPSGrid.binheader
+TOPAS log: /Users/jiangzhenmin/Desktop/PLAN1699/topas_output/test/run_low_statistics.log
+TPS RPPD: /Users/jiangzhenmin/Desktop/PLAN1699/dicom/RTDOSE/RPPD1.2.826.0.1.3680043.10.1049.20260427104048517000015820.dcm
+Figure: /Users/jiangzhenmin/Desktop/PLAN1699/plan_parsed/topas_low_statistics_qa.png

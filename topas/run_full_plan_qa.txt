@@ -1,0 +1,10 @@
+# Auto-generated full RTPLAN spot physical-dose QA run.
+# Not commissioned absolute clinical dose.
+
+includeFile = physics/carbon_production.txt
+
+i:Ts/Seed = 1699
+i:Ts/NumberOfThreads = 4
+i:Ts/ShowHistoryCountAtInterval = 1000
+b:Ge/CheckForOverlaps = "False"
+b:Ts/PauseBeforeQuit = "False"

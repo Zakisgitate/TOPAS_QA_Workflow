@@ -1,0 +1,9 @@
+# AUTO-GENERATED FILE -- DO NOT EDIT BY HAND
+# Generator: scripts/16_generate_water_phantom_spot.py
+# Identical physics list to the full-plan production run so the water
+# phantom validates the same transport configuration.
+
+includeFile = scoring.txt
+
+sv:Ph/Default/Modules = 6 "g4em-standard_opt4" "g4h-phy_QGSP_BIC_HP" "g4decay" "g4ion-binarycascade" "g4h-elastic_HP" "g4stopping"
+d:Ph/Default/CutForAllParticles = 0.05 mm

@@ -1,0 +1,19 @@
+# Transportation only is sufficient for non-interacting direction tracers.
+# Production carbon-ion transport physics will be selected and validated later.
+includeFile = beam/beam_geometry.txt
+
+# Geometry-only trajectories: chargedgeantino does not interact with matter.
+# This source belongs only to the Stage-4 geometry entry points.
+s:So/BeamDirectionTracer/Type = "Beam"
+s:So/BeamDirectionTracer/Component = "PlanBeamPosition"
+s:So/BeamDirectionTracer/BeamParticle = "chargedgeantino"
+d:So/BeamDirectionTracer/BeamEnergy = 1. MeV
+u:So/BeamDirectionTracer/BeamEnergySpread = 0.
+s:So/BeamDirectionTracer/BeamPositionDistribution = "Flat"
+s:So/BeamDirectionTracer/BeamPositionCutoffShape = "Rectangle"
+d:So/BeamDirectionTracer/BeamPositionCutoffX = 50. mm
+d:So/BeamDirectionTracer/BeamPositionCutoffY = 50. mm
+s:So/BeamDirectionTracer/BeamAngularDistribution = "None"
+i:So/BeamDirectionTracer/NumberOfHistoriesInRun = 25
+
+sv:Ph/Default/Modules = 1 "Transportation_Only"

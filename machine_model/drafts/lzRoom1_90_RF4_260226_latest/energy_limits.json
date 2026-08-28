@@ -1,0 +1,494 @@
+[
+  {
+    "energy_total_mev": 1443.12,
+    "minimum_mu": 30.0
+  },
+  {
+    "energy_total_mev": 1486.92,
+    "minimum_mu": 30.0
+  },
+  {
+    "energy_total_mev": 1530.12,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 1572.6,
+    "minimum_mu": 30.0
+  },
+  {
+    "energy_total_mev": 1614.6,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 1656.0,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 1696.8,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 1737.0,
+    "minimum_mu": 25.0
+  },
+  {
+    "energy_total_mev": 1776.72,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 1815.84,
+    "minimum_mu": 25.0
+  },
+  {
+    "energy_total_mev": 1854.48,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 1892.64,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 1930.32,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 1967.4,
+    "minimum_mu": 22.0
+  },
+  {
+    "energy_total_mev": 2004.12,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2040.36,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2076.12,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2111.52,
+    "minimum_mu": 22.0
+  },
+  {
+    "energy_total_mev": 2146.44,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2181.0,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2215.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2248.92,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2282.28,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2315.28,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2347.92,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2380.32,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2412.36,
+    "minimum_mu": 20.0
+  },
+  {
+    "energy_total_mev": 2444.04,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2475.36,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2506.44,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2537.28,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2567.76,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2598.0,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2628.0,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2657.76,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2687.28,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2716.44,
+    "minimum_mu": 20.0
+  },
+  {
+    "energy_total_mev": 2745.48,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2774.28,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2802.96,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2831.28,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2859.48,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2887.56,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2915.4,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2943.0,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2970.48,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 2997.84,
+    "minimum_mu": 20.0
+  },
+  {
+    "energy_total_mev": 3025.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3052.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3078.96,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3105.72,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3132.36,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3158.76,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3185.16,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3211.44,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3237.6,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3263.64,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3289.56,
+    "minimum_mu": 14.0
+  },
+  {
+    "energy_total_mev": 3315.36,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3341.04,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3366.72,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3392.28,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3417.72,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3443.16,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3468.48,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3493.68,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3518.88,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3543.96,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3569.04,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3594.0,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3618.84,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3643.68,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3668.52,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3693.24,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3717.84,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3742.44,
+    "minimum_mu": 14.0
+  },
+  {
+    "energy_total_mev": 3766.92,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3791.4,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3815.88,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3840.24,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3864.48,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3888.72,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3912.96,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3937.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3961.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 3985.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4009.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4032.96,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4056.72,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4080.48,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4104.12,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4127.64,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4151.16,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4174.56,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4197.96,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4221.24,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4244.4,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4267.44,
+    "minimum_mu": 10.0
+  },
+  {
+    "energy_total_mev": 4290.36,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4313.28,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4336.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4358.76,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4381.2,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4403.64,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4425.96,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4448.16,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4470.12,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4492.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4513.8,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4535.4,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4556.76,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4578.12,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4599.12,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4620.12,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4640.76,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4661.28,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4681.68,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4701.84,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4721.64,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4741.32,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4760.76,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4780.08,
+    "minimum_mu": null
+  },
+  {
+    "energy_total_mev": 4799.04,
+    "minimum_mu": 10.0
+  }
+]

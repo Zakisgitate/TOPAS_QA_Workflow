@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "enabled": false,
+  "server_id": "topas-server-01",
+  "ssh_mode": "direct",
+  "ssh_host": "",
+  "ssh_user": "",
+  "ssh_port": 22,
+  "auth_mode": "agent",
+  "identity_file": "",
+  "known_hosts_file": "config/ssh_known_hosts",
+  "host_key_sha256": "",
+  "remote_root": "/srv/plan1699",
+  "topas_executable": "/opt/topas/bin/topas",
+  "geant4_environment_script": "/opt/geant4/bin/geant4.sh",
+  "geant4_data_root": "/opt/geant4/data",
+  "max_parallel_jobs": 1
+}

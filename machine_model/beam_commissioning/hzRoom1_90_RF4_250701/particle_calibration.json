@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "calibration_kind": "machine_specific_energy_dependent_particle_number",
+  "treatment_machine_name": "hzRoom1_90_RF4_250701",
+  "commissioned_profile": {
+    "file": "profile.json",
+    "sha256": "6e1b95ee38175c32089f7912c4ea4170f02deba5830f3a7495498f5987fd165a",
+    "fingerprint": "e709110309547170244f2000821ad17735196db9fd85618d54857b106d5864e0"
+  },
+  "number_per_mu": {
+    "file": "number_per_mu.txt",
+    "sha256": "9a8c5b60647ab4f403bc171830fb319ebd625dacf106fd3e83b7c9db9c2e4e6a",
+    "units": "primary carbon ions per MU",
+    "scope": "machine_specific_and_energy_dependent"
+  },
+  "dose_output_correction": {
+    "factor": 1.0,
+    "status": "identity_no_empirical_correction",
+    "scope": "machine_beam_model_transport_and_measurement_protocol_specific"
+  },
+  "run_specific_quantities": {
+    "planned_particles": "N_plan = sum_i(MU_i * NF_machine(E_i))",
+    "simulated_histories": "N_sim = sum_i(AllocatedHistories_i)",
+    "dose_scale": "N_plan / N_sim * dose_output_correction.factor"
+  },
+  "policy": [
+    "NF(E) and any independently commissioned dose-output correction belong to this treatment machine profile.",
+    "N_plan, N_sim and their ratio belong to one patient/run and must never be stored as machine constants.",
+    "A non-identity output correction may be used only with traceable commissioning evidence."
+  ]
+}

@@ -1,0 +1,13 @@
+# PLAN1699 first-pass carbon-ion transport physics
+#
+# This explicitly pins the TOPAS 4.2.p3 default modular list used for the
+# Stage-8 low-statistics baseline. It is a general Geant4 carbon-ion transport
+# setup, not a machine-commissioned physics validation for this treatment room.
+
+includeFile = scoring/dose_low_statistics.txt
+
+sv:Ph/Default/Modules = 6 "g4em-standard_opt4" "g4h-phy_QGSP_BIC_HP" "g4decay" "g4ion-binarycascade" "g4h-elastic_HP" "g4stopping"
+
+# OpenTOPAS TsModularPhysicsList defaults to a 0.05 mm production cut. Keep it
+# explicit so later TOPAS-version changes cannot silently alter this baseline.
+d:Ph/Default/CutForAllParticles = 0.05 mm

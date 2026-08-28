@@ -1,0 +1,17 @@
+TPS-TOPAS generated case geometry
+=================================
+RTPLAN: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTPLAN/RTPLAN_00001.dcm
+RTSTRUCT: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTSTRUCT/RTSTRUCT_00001.dcm
+RPPD: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTDOSE/RTDOSE_00003.dcm
+Patient model: WATER_PHANTOM
+Isocenter: [405.5, 355.5, 294.0] mm
+Patient geometry bounds: [156.0, 206.0, 144.0] .. [556.0, 506.0, 444.0] mm
+Patient half lengths / center translation: [200.0, 150.0, 150.0] / [-49.5, 0.5, 0.0] mm
+RPPD grid half lengths / translation: [201.0, 152.0, 153.0] / [-50.5, 0.5, 0.0] mm
+Beam: HFS, gantry 90.0, couch 0.0, direction patient +X to -X
+Beam model: COMMISSIONED (hzRoom1_90_RF4_250701); profile=/Users/jiangzhenmin/Desktop/PLAN1699_副本/machine_model/beam_commissioning/hzRoom1_90_RF4_250701/profile.json; fingerprint=e709110309547170244f2000821ad17735196db9fd85618d54857b106d5864e0; particle_calibration_sha256=e5772e3b8e997d476c327963fbd683d67a1a80fe20f8b8ff2dde6a97732d83da
+Beam model audit: phase-space measured-sigma energies=122, median/max RMSE=0.001799158421/0.04545806168 mm, max isocenter error=0.04541130549 mm
+Beam source plane upstream: 680 mm
+Material: G4_WATER inside selected RTSTRUCT External bounding box
+HU table provenance: not applicable
+Scope: research physical-dose shape QA only. Patient CT requires institutional HU calibration and full commissioning before clinical claims.

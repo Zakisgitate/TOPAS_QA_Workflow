@@ -1,0 +1,7 @@
+# Auto-generated DICOM-patient-axis world; origin is plan isocenter [405.5, 355.5, 294.0] mm.
+
+s:Ge/World/Material = "G4_AIR"
+d:Ge/World/HLX = 730 mm
+d:Ge/World/HLY = 730 mm
+d:Ge/World/HLZ = 730 mm
+b:Ge/World/Invisible = "True"

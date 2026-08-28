@@ -1,0 +1,88 @@
+TPS-TOPAS plan generation summary
+====================================
+Input spots table (read-only): /Users/jiangzhenmin/Desktop/PLAN1699_副本/plan_parsed/spots.csv
+Input SHA-256: a201799fbc7bc13897961de7a5362d907ad2cb28a9c8484f05374a76e2d149cc
+Generated TOPAS file: /Users/jiangzhenmin/Desktop/PLAN1699_副本/topas/beam/plan_generated.txt
+Generated SHA-256: 5d9e01db7422eb9158bb1e453465862feaa8a80112ba1c60ff18342c4a58ec0f
+History allocation: /Users/jiangzhenmin/Desktop/PLAN1699_副本/plan_parsed/spot_history_allocation.csv
+Beam input mode: RTPLAN
+Beam model mode: COMMISSIONED
+Commissioned profile: /Users/jiangzhenmin/Desktop/PLAN1699_副本/machine_model/beam_commissioning/hzRoom1_90_RF4_250701/profile.json
+Commissioned fingerprint: e709110309547170244f2000821ad17735196db9fd85618d54857b106d5864e0
+Treatment machine: hzRoom1_90_RF4_250701
+Machine particle-calibration binding: /Users/jiangzhenmin/Desktop/PLAN1699_副本/machine_model/beam_commissioning/hzRoom1_90_RF4_250701/particle_calibration.json
+Machine particle-calibration SHA-256: e5772e3b8e997d476c327963fbd683d67a1a80fe20f8b8ff2dde6a97732d83da
+Number-per-MU table: /Users/jiangzhenmin/Desktop/PLAN1699_副本/machine_model/beam_commissioning/hzRoom1_90_RF4_250701/number_per_mu.txt
+Number-per-MU SHA-256: 9a8c5b60647ab4f403bc171830fb319ebd625dacf106fd3e83b7c9db9c2e4e6a
+Machine dose-output correction factor / status: 1 / identity_no_empirical_correction
+Source plane upstream: 680 mm
+RTPLAN VSAD X / Y: 5397.100098 / 6208.299805 mm
+Profile expected VSAD X / Y: 5398.68 / 6198.24 mm
+Maximum spot-axis projection error: 0 mm
+Phase-space measured-sigma audit energies: 122
+Phase-space measured-sigma median / maximum RMSE: 0.001799158421 / 0.04545806168 mm
+Phase-space isocenter-sigma maximum error: 0.04541130549 mm
+TOPAS active commissioned sources: 52
+Energy source: measured-IDD NNLS discrete spectrum
+Transverse source: measured spot-sigma Fermi-Eyges BiGaussian emittance
+Fluence source: meterset * commissioned energy-dependent number-per-MU
+Nozzle WET: NOT ADDED (already represented in measured IDD-derived energy spectrum)
+Commissioning water mean excitation energy: 75 eV
+
+Selection and weights
+---------------------
+Input plan spots / layers: 56349 / 53
+Generated spots / layers: 56036 / 52
+Selected LayerIndex values: 2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53
+All input rows generated: False
+Project full-plan generation: False
+Selected meterset-weight sum: 1216740.02983 MU
+Histories requested / allocated: 100000 / 100000
+Minimum / maximum histories per spot: 1 / 4
+Spot coverage: 56036 / 56036 selected spots simulated
+Run class: COMPLETE SELECTION
+Allocation: Lower-bounded proportional allocation plus deterministic largest remainder using meterset * commissioned number-per-MU
+MU-to-particle basis: MACHINE-BOUND COMMISSIONED NF(E) APPLIED; downstream dose scale is sum(AllocationBasis)/sum(AllocatedHistories) times the machine output correction
+
+Energy
+------
+Particle: GenericIon(6,12,6), fully stripped Carbon-12
+DICOM nominal energy range: 123.91 .. 265.43 MeV/u
+TOPAS incident spectrum weighted-mean total kinetic energy range: 1275.181795 .. 3079.93697 MeV
+TOPAS incident discrete-spectrum envelope: 1195.435256 .. 3119.900742 MeV
+TOPAS incident spectrum sigma range: 25.16721406 .. 46.11565374 MeV per ion
+Weighted-mean incident energy-per-nucleon range: 106.2651495 .. 256.6614142 MeV/u
+Energy interpretation: nominal DICOM MeV/u selects a measured-IDD spectrum; its TOPAS values are already total MeV per carbon ion and include upstream energy loss.
+Applied energy scale: 1 (commissioned override disabled)
+Applied energy offset: 0 MeV/u (commissioned override disabled)
+
+
+Spot coordinates and size
+-------------------------
+DICOM ScanSpotPositionMap: IEC GANTRY isocentric plane, millimetres
+Commissioned Fermi-Eyges source-plane phase space (DICOM/manual FWHM is not applied): air at isocenter, FWHM
+Conversion: sigma = FWHM / 2.3548200450309493
+Applied spot-size scale: 1
+
+IEC X -> patient +Y -> TOPAS PlanBeamPosition local +Y
+IEC Y -> patient +Z -> TOPAS PlanBeamPosition local +X
+Mapping evidence for this G90/HFS case:
+  meterset-weighted spot centroid IEC X/Y = -0.366539 / +0.063597 mm
+  The HFS/G90/couch0 transform must pass scripts/07_validate_case_compatibility.py.
+
+Commissioning status
+--------------------
+IMPLEMENTED from matched machine commissioning: discrete incident-energy spectra,
+BiGaussian position-angle emittance, DICOM VSAD spot-axis projection, and energy-dependent number-per-MU.
+PROFILE MATCH: exact TreatmentMachineName plus bounded VSAD agreement.
+MRF4 caveat: no separate physical MRF4 geometry/WET is added because the measured IDD-derived spectrum
+contains the upstream energy loss; residual scatter/fragmentation-model validation is still required.
+NOT INCLUDED: absolute clinical dose calibration, institution-specific CT HU calibration, independent end-to-end acceptance.
+
+Required commissioning inputs
+-----------------------------
+1. Independent end-to-end validation of the imported energy spectra and phase space on this TOPAS version.
+2. MRF4 scatter/fragmentation validation and a documented policy preventing WET double counting.
+3. Institution/scanner-specific HU-to-material and stopping-power calibration.
+4. Independent monitor-chamber/dose traceability and uncertainty validation of the imported primary/MU table.
+5. Commissioning acceptance thresholds across representative water and heterogeneous cases.

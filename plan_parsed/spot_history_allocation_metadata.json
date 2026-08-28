@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "allocation_file": "spot_history_allocation.csv",
+  "allocation_sha256": "b69c29d9a8af1290c3f8226bcab7ea2a84a3ede829ff53b64e16498cb684f1ba",
+  "beam_input_mode": "RTPLAN",
+  "beam_model_mode": "COMMISSIONED",
+  "machine_calibration": {
+    "binding_file": "/Users/jiangzhenmin/Desktop/PLAN1699_副本/machine_model/beam_commissioning/hzRoom1_90_RF4_250701/particle_calibration.json",
+    "binding_sha256": "e5772e3b8e997d476c327963fbd683d67a1a80fe20f8b8ff2dde6a97732d83da",
+    "treatment_machine_name": "hzRoom1_90_RF4_250701",
+    "profile_file": "/Users/jiangzhenmin/Desktop/PLAN1699_副本/machine_model/beam_commissioning/hzRoom1_90_RF4_250701/profile.json",
+    "profile_sha256": "6e1b95ee38175c32089f7912c4ea4170f02deba5830f3a7495498f5987fd165a",
+    "profile_fingerprint": "e709110309547170244f2000821ad17735196db9fd85618d54857b106d5864e0",
+    "number_per_mu_file": "/Users/jiangzhenmin/Desktop/PLAN1699_副本/machine_model/beam_commissioning/hzRoom1_90_RF4_250701/number_per_mu.txt",
+    "number_per_mu_sha256": "9a8c5b60647ab4f403bc171830fb319ebd625dacf106fd3e83b7c9db9c2e4e6a",
+    "dose_output_correction_factor": 1.0,
+    "dose_output_correction_status": "identity_no_empirical_correction"
+  },
+  "formula": {
+    "planned_particles": "N_plan = sum_i(MU_i * NF_machine(E_i))",
+    "simulated_histories": "N_sim = sum_i(AllocatedHistories_i)",
+    "dose_scale": "N_plan / N_sim * machine_dose_output_correction_factor"
+  }
+}

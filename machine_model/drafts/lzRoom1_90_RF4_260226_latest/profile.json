@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "model_kind": "latest_lanzhou_data_intake_draft",
+  "treatment_machine_name": "lzRoom1_90_RF4_260226",
+  "machine_alias": "90DegreeRoom1",
+  "source_plane_upstream_mm": 680.0,
+  "expected_vsad_mm": [
+    6228.28,
+    7007.64
+  ],
+  "machine_parameters": {
+    "gantry_deg": 90.0,
+    "snout_name": "lzRoom1_90_RF4",
+    "snout_position_mm": 585.5,
+    "range_shifter_name": "RangeShifter_35mm",
+    "range_shifter_physical_thickness_mm": 30.05,
+    "range_shifter_wet_mm": 35.0,
+    "range_shifter_tray_to_iso_mm": 595.5,
+    "range_shifter_material": "PMMA",
+    "range_shifter_density_g_cm3": 1.19,
+    "mrf4_material": "Aluminum",
+    "mrf4_wet_mm": 4.0
+  },
+  "energy_grid": {
+    "layer_count": 123,
+    "energy_range_mevu": [
+      120.25999999999999,
+      399.92
+    ],
+    "measured_idd_energy_count": 14,
+    "measured_idd_energies_mevu": [
+      120.25999999999999,
+      131.04999999999998,
+      141.4,
+      173.01,
+      190.19000000000003,
+      211.44000000000003,
+      240.63,
+      261.03000000000003,
+      282.69,
+      309.82,
+      330.09,
+      355.61999999999995,
+      383.26,
+      399.92
+    ]
+  },
+  "evidence": {
+    "range_role": "cross_check_only; depth origin and definition require confirmation",
+    "absolute_role": "measured cGy/MU reference; not primary-carbon NF(E)",
+    "spot_summary_role": "byte-identical to TOPAS_Test LanZhou/9973 SpotProfileSummary; matched processed SpotSigma imported with hash audit"
+  },
+  "files": {
+    "energy_spectrum": "energy_spectrum.json",
+    "energy_spectrum_fit_audit": "energy_spectrum_fit_audit.csv",
+    "measured_idd": "IDD_lzRoom1_90_RF4.csv",
+    "range_reference": "range_reference.json",
+    "range_crosscheck": "range_crosscheck.csv",
+    "absolute_reference": "absolute_reference.json",
+    "energy_limits": "energy_limits.json",
+    "spot_summary_air": "spot_summary_air.json",
+    "spot_summary_rs": "spot_summary_rs.json",
+    "machine_template_values": "machine_template_values.json",
+    "energy_list": "energy_list_mevu.txt",
+    "measured_spot_sigma": "measured_spot_sigma.csv",
+    "spot_sigma_derivation": "spot_sigma_derivation.json",
+    "spot_sigma_derivation_audit": "spot_sigma_derivation_audit.csv",
+    "phase_space": "phase_space.json",
+    "phase_space_fit_audit": "phase_space_fit_audit.csv",
+    "phase_space_fit_audit_summary": "phase_space_fit_audit.json",
+    "spot_profile_coeff": "SpotProfileCoeff.csv"
+  },
+  "sha256": {
+    "lzRoom1_90_RF4-25A.xlsx": "67f11bb728718ac8ae8ddb11fd5f04db349e418e2eff13e933081b18d85453f2",
+    "IDD_lzRoom1_90_RF4.csv": "891076ef4cf5805fde1bb320b43e8e07393ae1c7bdb35f0b9c9ad343266ae330",
+    "Range.csv": "f854cf0d18a59dc8c2b0fbf62f0aed85af714f051a396e5580cdc25ae2147e7d",
+    "Absolute_lzRoom1_90_RF4.csv": "c30c2e674c464bdfae1dd1c556f03b19a5b82f9ac905d181f8c7aaa8a10489a5",
+    "Energy-and-limitation-25A.csv": "8c0a3831f51f0471312be44fe723f297db5a43cd90c9149fad3a2a737868354c",
+    "SpotSummary_lzRoom1PBS_RF4.txt": "23b08868f6d0686afe140f4b9eb10cc3c7dc2b57c1e0880208d81d8181f49f13",
+    "SpotSummary_lzRoom1PBS_RF4 - RS.txt": "4d4a77589be618855fb10a18d5ece26d0bd9d619bae02adb50623f6e6c4e7a01"
+  },
+  "draft_status": "incomplete_unapproved_not_imported_not_for_clinical_use",
+  "missing_required_inputs": [
+    "Independent sign-off that the matched LanZhou/9973 TOPAS_Test SpotSigma processing remains applicable to the 260226 machine release",
+    "Primary carbon ions per MU NF(E) table or approved calibration pathway",
+    "LanZhou RTPLAN with exact TreatmentMachineName and VSAD identity",
+    "Range.csv depth origin and R80 definition/correction confirmation"
+  ],
+  "provenance": {
+    "source_root": "/Users/jiangzhenmin/Desktop/兰州1号室RF4(260226最小mu和机器参数更新，RS厚度改为30.05-25A模板)",
+    "created_utc": "2026-08-26T01:43:31.625383+00:00",
+    "kernel_library": "/Users/jiangzhenmin/Desktop/TOPAS_Test/Hangzhou/1685/TOPAS计划验证/01 束流commission/I75eV_from_results5",
+    "method": "NNLS measured-IDT spectrum against existing ideal-water kernels; no phase-space or NF(E) fabricated",
+    "phase_space_method": "matched TOPAS_Test SpotSigma evidence fitted at VSAD=-680 mm using the project's constrained Fermi-Eyges fit"
+  }
+}

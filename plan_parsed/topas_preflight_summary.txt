@@ -1,0 +1,15 @@
+TPS-TOPAS complete zero-history preflight
+=========================================
+Status: PASS
+
+TOPAS version: 4.2.p3
+Patient model: WATER_PHANTOM
+Patient initialization: G4_WATER rectangular box
+Full-plan parse elapsed: 1.014 s
+Dose-grid initialization elapsed: 1.015 s
+Zero-history TOPAS sources: 53 (PlanCarbonBeam, PlanCarbonBeamLayer001, PlanCarbonBeamLayer002, PlanCarbonBeamLayer003, PlanCarbonBeamLayer004, PlanCarbonBeamLayer005, PlanCarbonBeamLayer006, PlanCarbonBeamLayer007, PlanCarbonBeamLayer008, PlanCarbonBeamLayer009, PlanCarbonBeamLayer010, PlanCarbonBeamLayer011, PlanCarbonBeamLayer012, PlanCarbonBeamLayer013, PlanCarbonBeamLayer014, PlanCarbonBeamLayer015, PlanCarbonBeamLayer016, PlanCarbonBeamLayer017, PlanCarbonBeamLayer018, PlanCarbonBeamLayer019, PlanCarbonBeamLayer020, PlanCarbonBeamLayer021, PlanCarbonBeamLayer022, PlanCarbonBeamLayer023, PlanCarbonBeamLayer024, PlanCarbonBeamLayer025, PlanCarbonBeamLayer026, PlanCarbonBeamLayer027, PlanCarbonBeamLayer028, PlanCarbonBeamLayer029, PlanCarbonBeamLayer030, PlanCarbonBeamLayer031, PlanCarbonBeamLayer032, PlanCarbonBeamLayer033, PlanCarbonBeamLayer034, PlanCarbonBeamLayer035, PlanCarbonBeamLayer036, PlanCarbonBeamLayer037, PlanCarbonBeamLayer038, PlanCarbonBeamLayer039, PlanCarbonBeamLayer040, PlanCarbonBeamLayer041, PlanCarbonBeamLayer042, PlanCarbonBeamLayer043, PlanCarbonBeamLayer044, PlanCarbonBeamLayer045, PlanCarbonBeamLayer046, PlanCarbonBeamLayer047, PlanCarbonBeamLayer048, PlanCarbonBeamLayer049, PlanCarbonBeamLayer050, PlanCarbonBeamLayer051, PlanCarbonBeamLayer052)
+Scorer: TPSDoseToMedium
+Exact grid validation: PASS (/Users/jiangzhenmin/Desktop/PLAN1699_副本/plan_parsed/topas_dose_grid_validation_summary.txt)
+
+This proves configuration parsing, patient initialization and score-grid alignment only.
+It does not validate particle transport, HU calibration, the machine model or dose agreement.

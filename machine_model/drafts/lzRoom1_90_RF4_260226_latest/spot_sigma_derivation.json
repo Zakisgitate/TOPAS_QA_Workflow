@@ -1,0 +1,24 @@
+{
+  "source": "SpotSummary_lzRoom1PBS_RF4.txt",
+  "source_plane_order": [
+    300.0,
+    150.0,
+    0.0,
+    -150.0,
+    -300.0
+  ],
+  "depth_output_order": "ascending -300,-150,0,150,300 mm",
+  "width_interpretation": "FWHM, established by byte-identical TOPAS_Test SpotProfileSummary evidence",
+  "conversion": "SigmaX = FWHM_X / 2.354820045; SigmaY = FWHM_Y / 2.354820045; Sigma_fit = mean(SigmaX,SigmaY)",
+  "sigma_column": "Imported byte-for-byte from the matched TOPAS_Test processed SpotSigma reference; Sigma_fit is the rounded FWHM conversion and Sigma is the reference model input",
+  "topas_test_reference_summary": "/Users/jiangzhenmin/Desktop/TOPAS_Test/LanZhou/9973/machine_272/beamQuality_267/lzRoom1_90_RF4_250331_SpotProfileSummary.txt",
+  "topas_test_reference_summary_sha256": "23b08868f6d0686afe140f4b9eb10cc3c7dc2b57c1e0880208d81d8181f49f13",
+  "source_summary_sha256": "23b08868f6d0686afe140f4b9eb10cc3c7dc2b57c1e0880208d81d8181f49f13",
+  "topas_test_reference_sigma": "/Users/jiangzhenmin/Desktop/TOPAS_Test/LanZhou/9973/machine_272/beamQuality_267/beamModel/lzRoom1_90_RF4_250331_SpotSigma.csv",
+  "topas_test_reference_sigma_sha256": "ceeaf090d78899f957a6a3d04f31422719a9f7dcde55d84f2c5b62561ab01e3c",
+  "output_sigma_sha256": "ceeaf090d78899f957a6a3d04f31422719a9f7dcde55d84f2c5b62561ab01e3c",
+  "maximum_raw_to_reference_sigma_fit_delta_mm": 0.01435276363124327,
+  "status": "reference_matched_derived_unapproved",
+  "created_utc": "2026-08-27T23:29:17.399973+00:00",
+  "point_count": 615
+}

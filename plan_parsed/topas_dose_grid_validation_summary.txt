@@ -1,0 +1,39 @@
+TPS-TOPAS dose-grid validation
+==================================
+Status: PASS
+
+Validation scope
+----------------
+TOPAS initialized the complete DoseToMedium scorer with zero transported histories.
+This validates configuration and output geometry, not dose transport or dose agreement.
+
+Inputs
+------
+TPS RPPD: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTDOSE/RTDOSE_00003.dcm
+RT Ion Plan: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTPLAN/RTPLAN_00001.dcm
+TOPAS grid parameters: /Users/jiangzhenmin/Desktop/PLAN1699_副本/topas/scoring/dose_grid.txt
+TOPAS header: /Users/jiangzhenmin/Desktop/PLAN1699_副本/topas_output/test/dose_grid_zero_validation.binheader
+TOPAS binary: /Users/jiangzhenmin/Desktop/PLAN1699_副本/topas_output/test/dose_grid_zero_validation.bin
+
+Checks
+------
+Scorer / component: TPSDoseToMedium / TPSDoseGrid
+Quantity / report: DoseToMedium (Gy) / Sum
+TPS pydicom shape [Z,Y,X]: (153, 152, 201)
+TOPAS bins [X,Y,Z]: (201, 152, 153)
+TPS spacing [X,Y,Z]: [2.0, 2.0, 2.0] mm
+TOPAS spacing [X,Y,Z]: [2.0, 2.0, 2.0] mm
+TPS-derived grid half lengths [X,Y,Z]: [201.0, 152.0, 153.0] mm
+TOPAS grid half lengths [X,Y,Z]: [201.0, 152.0, 153.0] mm
+TPS-derived translation from isocenter [X,Y,Z]: [-50.5, 0.5, 0.0] mm
+TOPAS grid translation [X,Y,Z]: [-50.5, 0.5, 0.0] mm
+Voxel count: 4674456
+Binary byte count: 37395648 (= 4674456 float64 values)
+Validated reshape: (153, 152, 201)
+Non-finite / nonzero values: 0 / 0 (expected for zero histories)
+
+Result
+------
+PASS: the TOPAS output grid exactly matches the TPS RPPD array dimensions and spacing.
+The binary can be read as numpy.float64 and reshaped directly to [153, 152, 201].
+No low-statistics or production dose calculation was performed in this stage.

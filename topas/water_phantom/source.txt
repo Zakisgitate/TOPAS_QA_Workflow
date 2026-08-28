@@ -1,0 +1,33 @@
+# AUTO-GENERATED FILE -- DO NOT EDIT BY HAND
+# Generator: scripts/16_generate_water_phantom_spot.py
+# Beam model mode: COMMISSIONED
+# Nominal energy: 261.03 MeV/u
+# Requested spot at isocenter: IEC X=0 mm, Y=0 mm
+# Spot-axis geometric back-check error: 0 mm
+# Histories in a single Geant4 run: 100000
+
+includeFile = geometry.txt
+
+# Commissioned profile: /Users/jiangzhenmin/Desktop/PLAN1699_副本/machine_model/beam_commissioning/hzRoom1_90_RF4_250701/profile.json
+# Commissioned fingerprint: e709110309547170244f2000821ad17735196db9fd85618d54857b106d5864e0
+# Treatment machine: hzRoom1_90_RF4_250701
+# Machine particle-calibration SHA-256: e5772e3b8e997d476c327963fbd683d67a1a80fe20f8b8ff2dde6a97732d83da
+# Number-per-MU SHA-256: 9a8c5b60647ab4f403bc171830fb319ebd625dacf106fd3e83b7c9db9c2e4e6a
+# Source plane: 680 mm upstream of isocenter
+# Energy: measured-IDD NNLS discrete spectrum; no additional nozzle WET is added.
+# Transverse phase space: measured spot-sigma Fermi-Eyges BiGaussian emittance.
+
+s:So/WaterPhantomSpot/Type = "Emittance"
+s:So/WaterPhantomSpot/Component = "SpotPosition"
+s:So/WaterPhantomSpot/EmittanceParticle = "GenericIon(6,12,6)"
+s:So/WaterPhantomSpot/EmittanceEnergySpectrumType = "Discrete"
+dv:So/WaterPhantomSpot/EmittanceEnergySpectrumValues = 16 2982.393058 2988 2988.393058 3000.393058 3006 3006.393058 3012 3018.393058 3030 3036 3036.393058 3054.393058 3060 3066 3066.393058 3072.393058 MeV
+uv:So/WaterPhantomSpot/EmittanceEnergySpectrumWeights = 16 6.078532606e-17 0.1452813312 2.168398191e-16 2.342267713e-16 0.1798602867 5.096930926e-17 0.1317915265 4.128184329e-16 0.08897902538 0.226136799 3.563470008e-16 1.72054147e-16 0.1226866731 0.1052643581 2.319821246e-16 6.571977378e-17
+s:So/WaterPhantomSpot/Distribution = "BiGaussian"
+d:So/WaterPhantomSpot/SigmaX = 1.844807555 mm
+d:So/WaterPhantomSpot/SigmaY = 1.844807555 mm
+u:So/WaterPhantomSpot/SigmaXprime = 0.00338972983
+u:So/WaterPhantomSpot/SigmaYprime = 0.00338972983
+u:So/WaterPhantomSpot/CorrelationX = 0.1196645939
+u:So/WaterPhantomSpot/CorrelationY = 0.1196645939
+i:So/WaterPhantomSpot/NumberOfHistoriesInRun = 100000

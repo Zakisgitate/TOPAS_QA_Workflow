@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "mode": "WATER_PHANTOM",
+  "ready_for_research_qa": true,
+  "ct_directory": "/Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/CT",
+  "ct_slices": 195,
+  "ct_series_instance_uid": "2.16.840.1.114362.1.11897988.26068996800.649860801.1027.1",
+  "hu_statistics": {
+    "minimum": 0.0,
+    "maximum": 0.0,
+    "voxel_count": 786432,
+    "below_schneider_range": 0,
+    "above_schneider_range": 0,
+    "extreme_low_at_or_below_minus4096": 0,
+    "outside_schneider_fraction": 0.0
+  },
+  "converter": {
+    "name": "G4_WATER",
+    "table": null,
+    "hu_range": null,
+    "commissioning_status": "NOT_APPLICABLE"
+  },
+  "external_roi": {
+    "number": 1,
+    "name": "External",
+    "interpreted_type": "EXTERNAL",
+    "point_count": 604,
+    "rectangular_xy": true,
+    "bounds_min_mm": [
+      156.0,
+      206.0,
+      144.0
+    ],
+    "bounds_max_mm": [
+      556.0,
+      506.0,
+      444.0
+    ]
+  },
+  "sources": {
+    "rtplan": "/Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTPLAN/RTPLAN_00001.dcm",
+    "rtdose": "/Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTDOSE/RTDOSE_00003.dcm",
+    "rtstruct": "/Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTSTRUCT/RTSTRUCT_00001.dcm"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "model_kind": "measured_idd_discrete_spectrum_plus_fermi_eyges_emittance",
+  "treatment_machine_name": "hzRoom1_90_RF4_250701",
+  "source_plane_upstream_mm": 680.0,
+  "expected_vsad_mm": [
+    5398.68,
+    6198.24
+  ],
+  "vsad_tolerance_mm": 25.0,
+  "water_mean_excitation_energy_ev": 75.0,
+  "units": {
+    "phase_space_position_sigma": "mm",
+    "phase_space_angular_sigma": "rad",
+    "energy_spectrum": "total MeV per carbon ion"
+  },
+  "nozzle_wet_policy": "not_added; measured IDD-derived spectrum already includes upstream nozzle loss",
+  "fluence_policy": "spot meterset multiplied by energy-dependent number-per-MU before relative history allocation",
+  "phase_space_fit_validation": {
+    "depth_mapping": "reverse_sigma_order",
+    "maximum_rmse_mm": 0.25,
+    "maximum_isocenter_error_mm": 0.25
+  },
+  "files": {
+    "energy_spectrum": "energy_spectrum.json",
+    "phase_space": "phase_space.json",
+    "number_per_mu": "number_per_mu.txt",
+    "measured_idd": "measured_pristine_bragg_peaks.csv",
+    "measured_spot_sigma": "measured_spot_sigma.csv",
+    "energy_list": "commissioned_energy_list.txt"
+  },
+  "sha256": {
+    "energy_spectrum": "e69258e8de0c1c13c7d0105317e5890f4c10a3cd28b58b4cc80ede6b4b8df557",
+    "phase_space": "7c01ae26866da6ac9f2449bf7a44558a9bfb6023452f4532a46f17682682f0c6",
+    "number_per_mu": "9a8c5b60647ab4f403bc171830fb319ebd625dacf106fd3e83b7c9db9c2e4e6a",
+    "measured_idd": "d5e7b1cb3eff752c5b11e8d9ab43d369c2c24e5d4506bde85c1820ea26912508",
+    "measured_spot_sigma": "5e3c3565b08bbd8845be33d104f95d3249eb10a49146ce9341a0c87120efbf1d",
+    "energy_list": "0cea6fed92475bf821d37c21400fbdecd9b95ef196e4836b784c8a5503960066"
+  },
+  "provenance": {
+    "source_project": "/Users/jiangzhenmin/Desktop/TOPAS_Test",
+    "reference_case": "Hangzhou/1685",
+    "active_rtplan": "/Users/jiangzhenmin/Desktop/PLAN1699/dicom/RTPLAN/RTPLAN_00001.dcm",
+    "active_rtplan_sop_instance_uid": "1.2.826.0.1.3680043.10.1049.20260526102931583000038400",
+    "imported_utc": "2026-08-20T07:11:04.546696+00:00",
+    "method": "TOPAS_Test IDD NNLS discrete-energy spectrum; Fermi-Eyges phase-space fit; DICOM VSAD spot-axis projection"
+  },
+  "limitations": [
+    "Research QA model; not a substitute for independent institutional beam commissioning.",
+    "Imported data are accepted only for an exact TreatmentMachineName match and VSAD tolerance.",
+    "The referenced TOPAS_Test multi-plan report did not fully exclude residual beam-model mismatch.",
+    "The TOPAS_Test phase-space fitter outputs position sigma in mm; this importer records and emits mm explicitly rather than copying the reference generator's cm label.",
+    "MRF4 physical geometry and institution-specific CT HU calibration remain separate open items."
+  ]
+}

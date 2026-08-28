@@ -1,0 +1,21 @@
+# PLAN1699 — Stage 4 patient-geometry entry point
+#
+# This stage reconstructs the selected water-box or DICOM CT patient model,
+# plan isocenter and beam
+# direction. It intentionally does NOT claim a commissioned carbon-ion beam:
+# no plan spots, energy spectrum, MRF4 geometry or dose scorer is enabled here.
+
+# TOPAS modules form one linear include chain ending at graphics/openGL.txt.
+# Parallel include branches each inherit built-in defaults and can otherwise
+# create ambiguous parameter chains.
+includeFile = graphics/openGL.txt
+
+i:Ge/CheckForOverlapsResolution = 1000
+b:Ge/CheckForOverlaps = "True"
+b:Ge/QuitIfOverlapDetected = "True"
+
+s:Gr/RefreshEvery = "Run"
+
+i:Ts/NumberOfThreads = 1
+i:Ts/ShowHistoryCountAtInterval = 1
+b:Ts/PauseBeforeQuit = "True"

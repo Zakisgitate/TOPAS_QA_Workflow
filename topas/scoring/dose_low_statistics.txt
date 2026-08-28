@@ -1,0 +1,15 @@
+# PLAN1699 isolated Stage-8 low-statistics DoseToMedium scorer.
+
+includeFile = scoring/dose_grid_low_statistics.txt
+
+s:Sc/TPSDoseToMedium/Quantity = "DoseToMedium"
+s:Sc/TPSDoseToMedium/Component = "TPSDoseGrid"
+sv:Sc/TPSDoseToMedium/Report = 1 "Sum"
+s:Sc/TPSDoseToMedium/OutputType = "binary"
+s:Sc/TPSDoseToMedium/OutputFile = "../topas_output/test/PLAN1699_low_statistics_DoseToMedium_TPSGrid"
+s:Sc/TPSDoseToMedium/IfOutputFileAlreadyExists = "Overwrite"
+b:Sc/TPSDoseToMedium/OutputAfterRun = "False"
+b:Sc/TPSDoseToMedium/OutputToConsole = "False"
+b:Sc/TPSDoseToMedium/Visualize = "False"
+b:Sc/TPSDoseToMedium/Sparsify = "False"
+b:Sc/TPSDoseToMedium/SingleIndex = "False"

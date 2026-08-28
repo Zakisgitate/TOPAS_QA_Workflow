@@ -1,0 +1,8 @@
+{
+  "depth_mapping": "reverse_sigma_order",
+  "audited_energies": 123,
+  "median_rmse_mm": 0.0022189564320867316,
+  "maximum_rmse_mm": 0.03563707244159835,
+  "median_isocenter_error_mm": 0.0025271714482295593,
+  "maximum_isocenter_error_mm": 0.04400046369164334
+}

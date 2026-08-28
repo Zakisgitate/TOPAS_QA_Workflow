@@ -1,0 +1,743 @@
+{
+  "rows": [
+    {
+      "energy_total_mev": 1443.12,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000180768165816226
+    },
+    {
+      "energy_total_mev": 1486.92,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000162968237015941
+    },
+    {
+      "energy_total_mev": 1530.12,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.00015038962066374
+    },
+    {
+      "energy_total_mev": 1572.6,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.00014232031960761
+    },
+    {
+      "energy_total_mev": 1614.6,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000135912345239508
+    },
+    {
+      "energy_total_mev": 1656.0,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000130770143586092
+    },
+    {
+      "energy_total_mev": 1696.8,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.00012626082829002
+    },
+    {
+      "energy_total_mev": 1737.0,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000123412839681975
+    },
+    {
+      "energy_total_mev": 1776.72,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000120643961868597
+    },
+    {
+      "energy_total_mev": 1815.84,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000117558640876548
+    },
+    {
+      "energy_total_mev": 1854.48,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000115659981804517
+    },
+    {
+      "energy_total_mev": 1892.64,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.0001124955500178
+    },
+    {
+      "energy_total_mev": 1930.32,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000112337328428464
+    },
+    {
+      "energy_total_mev": 1967.4,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000110755112535105
+    },
+    {
+      "energy_total_mev": 2004.12,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000109964004588426
+    },
+    {
+      "energy_total_mev": 2040.36,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000108381788695067
+    },
+    {
+      "energy_total_mev": 2076.12,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000107828013132392
+    },
+    {
+      "energy_total_mev": 2111.52,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000106245797239033
+    },
+    {
+      "energy_total_mev": 2146.44,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.00010561291088169
+    },
+    {
+      "energy_total_mev": 2181.0,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000104742692140343
+    },
+    {
+      "energy_total_mev": 2215.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000103714251809659
+    },
+    {
+      "energy_total_mev": 2248.92,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000103556030220324
+    },
+    {
+      "energy_total_mev": 2282.28,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000103002254657648
+    },
+    {
+      "energy_total_mev": 2315.28,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000102290257505637
+    },
+    {
+      "energy_total_mev": 2347.92,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000101578260353625
+    },
+    {
+      "energy_total_mev": 2380.32,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000101657371148293
+    },
+    {
+      "energy_total_mev": 2412.36,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000100945373996282
+    },
+    {
+      "energy_total_mev": 2444.04,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 0.000100549820022942
+    },
+    {
+      "energy_total_mev": 2475.36,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.99169336655987e-05
+    },
+    {
+      "energy_total_mev": 2506.44,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.93236027055892e-05
+    },
+    {
+      "energy_total_mev": 2537.28,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.94422688975911e-05
+    },
+    {
+      "energy_total_mev": 2567.76,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.86116055535778e-05
+    },
+    {
+      "energy_total_mev": 2598.0,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.84929393615759e-05
+    },
+    {
+      "energy_total_mev": 2628.0,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.84929393615759e-05
+    },
+    {
+      "energy_total_mev": 2657.76,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.84929393615759e-05
+    },
+    {
+      "energy_total_mev": 2687.28,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.74249436335588e-05
+    },
+    {
+      "energy_total_mev": 2716.44,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.77809422095645e-05
+    },
+    {
+      "energy_total_mev": 2745.48,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.65942802895455e-05
+    },
+    {
+      "energy_total_mev": 2774.28,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.68316126735493e-05
+    },
+    {
+      "energy_total_mev": 2802.96,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.67129464815474e-05
+    },
+    {
+      "energy_total_mev": 2831.28,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.70689450575531e-05
+    },
+    {
+      "energy_total_mev": 2859.48,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.68316126735493e-05
+    },
+    {
+      "energy_total_mev": 2887.56,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.61196155215379e-05
+    },
+    {
+      "energy_total_mev": 2915.4,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.63569479055417e-05
+    },
+    {
+      "energy_total_mev": 2943.0,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.61987263162058e-05
+    },
+    {
+      "energy_total_mev": 2970.48,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.62778371108738e-05
+    },
+    {
+      "energy_total_mev": 2997.84,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.55658399588624e-05
+    },
+    {
+      "energy_total_mev": 3025.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.53285075748586e-05
+    },
+    {
+      "energy_total_mev": 3052.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.51702859855227e-05
+    },
+    {
+      "energy_total_mev": 3078.96,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.50911751908548e-05
+    },
+    {
+      "energy_total_mev": 3105.72,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.53285075748586e-05
+    },
+    {
+      "energy_total_mev": 3132.36,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.50516197935208e-05
+    },
+    {
+      "energy_total_mev": 3158.76,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.46956212175151e-05
+    },
+    {
+      "energy_total_mev": 3185.16,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.50516197935208e-05
+    },
+    {
+      "energy_total_mev": 3211.44,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.50516197935208e-05
+    },
+    {
+      "energy_total_mev": 3237.6,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.46956212175151e-05
+    },
+    {
+      "energy_total_mev": 3263.64,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.50516197935208e-05
+    },
+    {
+      "energy_total_mev": 3289.56,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.4814287409517e-05
+    },
+    {
+      "energy_total_mev": 3315.36,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.46165104228472e-05
+    },
+    {
+      "energy_total_mev": 3341.04,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.43396226415094e-05
+    },
+    {
+      "energy_total_mev": 3366.72,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.45769550255132e-05
+    },
+    {
+      "energy_total_mev": 3392.28,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.45373996281793e-05
+    },
+    {
+      "energy_total_mev": 3417.72,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.39045132708358e-05
+    },
+    {
+      "energy_total_mev": 3443.16,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.39836240655038e-05
+    },
+    {
+      "energy_total_mev": 3468.48,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.42209564495075e-05
+    },
+    {
+      "energy_total_mev": 3493.68,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.39836240655037e-05
+    },
+    {
+      "energy_total_mev": 3518.88,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.38649578735019e-05
+    },
+    {
+      "energy_total_mev": 3543.96,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.33507377081603e-05
+    },
+    {
+      "energy_total_mev": 3569.04,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.38649578735019e-05
+    },
+    {
+      "energy_total_mev": 3594.0,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.35089592974961e-05
+    },
+    {
+      "energy_total_mev": 3618.84,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.37462916814999e-05
+    },
+    {
+      "energy_total_mev": 3643.68,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.32716269134923e-05
+    },
+    {
+      "energy_total_mev": 3668.52,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.30342945294885e-05
+    },
+    {
+      "energy_total_mev": 3693.24,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.27969621454848e-05
+    },
+    {
+      "energy_total_mev": 3717.84,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.34298485028282e-05
+    },
+    {
+      "energy_total_mev": 3742.44,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.27969621454848e-05
+    },
+    {
+      "energy_total_mev": 3766.92,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.30342945294885e-05
+    },
+    {
+      "energy_total_mev": 3791.4,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.19267434041375e-05
+    },
+    {
+      "energy_total_mev": 3815.88,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.16103002254657e-05
+    },
+    {
+      "energy_total_mev": 3840.24,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.2559629761481e-05
+    },
+    {
+      "energy_total_mev": 3864.48,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.28760729401527e-05
+    },
+    {
+      "energy_total_mev": 3888.72,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.22431865828092e-05
+    },
+    {
+      "energy_total_mev": 3912.96,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.18476326094696e-05
+    },
+    {
+      "energy_total_mev": 3937.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.1293857046794e-05
+    },
+    {
+      "energy_total_mev": 3961.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.2480518966813e-05
+    },
+    {
+      "energy_total_mev": 3985.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.23222973774772e-05
+    },
+    {
+      "energy_total_mev": 4009.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.24014081721451e-05
+    },
+    {
+      "energy_total_mev": 4032.96,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.27969621454848e-05
+    },
+    {
+      "energy_total_mev": 4056.72,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.17685218148016e-05
+    },
+    {
+      "energy_total_mev": 4080.48,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.24014081721451e-05
+    },
+    {
+      "energy_total_mev": 4104.12,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.26782959534829e-05
+    },
+    {
+      "energy_total_mev": 4127.64,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.20849649934734e-05
+    },
+    {
+      "energy_total_mev": 4151.16,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.21640757881413e-05
+    },
+    {
+      "energy_total_mev": 4174.56,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.14916340334639e-05
+    },
+    {
+      "energy_total_mev": 4197.96,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.17289664174677e-05
+    },
+    {
+      "energy_total_mev": 4221.24,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.18476326094696e-05
+    },
+    {
+      "energy_total_mev": 4244.4,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.27178513508168e-05
+    },
+    {
+      "energy_total_mev": 4267.44,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.24014081721451e-05
+    },
+    {
+      "energy_total_mev": 4290.36,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.20849649934734e-05
+    },
+    {
+      "energy_total_mev": 4313.28,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.19662988014715e-05
+    },
+    {
+      "energy_total_mev": 4336.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.2559629761481e-05
+    },
+    {
+      "energy_total_mev": 4358.76,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.20849649934734e-05
+    },
+    {
+      "energy_total_mev": 4381.2,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.20849649934734e-05
+    },
+    {
+      "energy_total_mev": 4403.64,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.11356354574582e-05
+    },
+    {
+      "energy_total_mev": 4425.96,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.22036311854753e-05
+    },
+    {
+      "energy_total_mev": 4448.16,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.22431865828092e-05
+    },
+    {
+      "energy_total_mev": 4470.12,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.1372967841462e-05
+    },
+    {
+      "energy_total_mev": 4492.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.22036311854753e-05
+    },
+    {
+      "energy_total_mev": 4513.8,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.12543016494601e-05
+    },
+    {
+      "energy_total_mev": 4535.4,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.11356354574582e-05
+    },
+    {
+      "energy_total_mev": 4556.76,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.09774138681223e-05
+    },
+    {
+      "energy_total_mev": 4578.12,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.1372967841462e-05
+    },
+    {
+      "energy_total_mev": 4599.12,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.17685218148016e-05
+    },
+    {
+      "energy_total_mev": 4620.12,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.22036311854753e-05
+    },
+    {
+      "energy_total_mev": 4640.76,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.18476326094696e-05
+    },
+    {
+      "energy_total_mev": 4661.28,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.16894110201337e-05
+    },
+    {
+      "energy_total_mev": 4681.68,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.14916340334639e-05
+    },
+    {
+      "energy_total_mev": 4701.84,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.18476326094696e-05
+    },
+    {
+      "energy_total_mev": 4721.64,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.1293857046794e-05
+    },
+    {
+      "energy_total_mev": 4741.32,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.19662988014715e-05
+    },
+    {
+      "energy_total_mev": 4760.76,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.20058541988054e-05
+    },
+    {
+      "energy_total_mev": 4780.08,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.1372967841462e-05
+    },
+    {
+      "energy_total_mev": 4799.04,
+      "depth_mm": 20.66,
+      "meterset_mu": 150.0,
+      "dose_cgy": 9.19662988014715e-05
+    }
+  ],
+  "row_count": 123
+}

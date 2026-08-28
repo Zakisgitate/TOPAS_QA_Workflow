@@ -1,0 +1,27 @@
+# Off-screen geometry capture using the Geant4 11.3 ToolsSG file driver.
+includeFile = physics/geometry_only.txt
+
+s:Gr/GeometryCapture/Type = "TSG_FILE"
+i:Gr/GeometryCapture/WindowSizeX = 1200
+i:Gr/GeometryCapture/WindowSizeY = 900
+s:Gr/GeometryCapture/Projection = "Perspective"
+d:Gr/GeometryCapture/PerspectiveAngle = 18. deg
+d:Gr/GeometryCapture/Theta = 65. deg
+d:Gr/GeometryCapture/Phi = 35. deg
+u:Gr/GeometryCapture/Zoom = 1.25
+b:Gr/GeometryCapture/IncludeGeometry = "True"
+b:Gr/GeometryCapture/IncludeTrajectories = "True"
+b:Gr/GeometryCapture/IncludeAxes = "True"
+s:Gr/GeometryCapture/AxesComponent = "World"
+d:Gr/GeometryCapture/AxesSize = 100. mm
+s:Gr/GeometryCapture/ColorBy = "ParticleType"
+sv:Gr/GeometryCapture/ColorByParticleTypeNames = 1 "chargedgeantino"
+sv:Gr/GeometryCapture/ColorByParticleTypeColors = 1 "fuchsia"
+b:Gr/GeometryCapture/HiddenLineRemovalForGeometry = "False"
+b:Gr/GeometryCapture/HiddenLineRemovalForTrajectories = "False"
+s:Gr/GeometryCapture/BackgroundColor = "white"
+i:Gr/GeometryCapture/LineWidth = 2
+
+s:Gr/RefreshEvery = "Run"
+i:Ts/NumberOfThreads = 1
+b:Ts/PauseBeforeQuit = "False"

@@ -1,0 +1,27 @@
+# Auto-generated isocenter and RPPD grid guides.
+# Dose source: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTDOSE/RTDOSE_00003.dcm
+
+includeFile = geometry/patient.txt
+
+s:Ge/IsocenterMarker/Type = "TsSphere"
+s:Ge/IsocenterMarker/Parent = "World"
+b:Ge/IsocenterMarker/IsParallel = "True"
+d:Ge/IsocenterMarker/RMin = 0 mm
+d:Ge/IsocenterMarker/RMax = 4 mm
+d:Ge/IsocenterMarker/TransX = 0 mm
+d:Ge/IsocenterMarker/TransY = 0 mm
+d:Ge/IsocenterMarker/TransZ = 0 mm
+s:Ge/IsocenterMarker/Color = "red"
+s:Ge/IsocenterMarker/DrawingStyle = "Solid"
+
+s:Ge/RPPDGridOutline/Type = "TsBox"
+s:Ge/RPPDGridOutline/Parent = "World"
+b:Ge/RPPDGridOutline/IsParallel = "True"
+d:Ge/RPPDGridOutline/HLX = 201 mm
+d:Ge/RPPDGridOutline/HLY = 152 mm
+d:Ge/RPPDGridOutline/HLZ = 153 mm
+d:Ge/RPPDGridOutline/TransX = -50.5 mm
+d:Ge/RPPDGridOutline/TransY = 0.5 mm
+d:Ge/RPPDGridOutline/TransZ = 0 mm
+s:Ge/RPPDGridOutline/Color = "magenta"
+s:Ge/RPPDGridOutline/DrawingStyle = "WireFrame"

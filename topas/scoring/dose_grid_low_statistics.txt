@@ -1,0 +1,21 @@
+# PLAN1699 TPS-aligned grid for the isolated Stage-8 representative-spot plan.
+# Geometry values are identical to scoring/dose_grid.txt; only the upstream
+# generated plan differs, preserving TOPAS's required single include chain.
+
+includeFile = beam/plan_low_statistics_generated.txt
+
+s:Ge/TPSDoseGrid/Type = "TsBox"
+s:Ge/TPSDoseGrid/Parent = "World"
+b:Ge/TPSDoseGrid/IsParallel = "True"
+d:Ge/TPSDoseGrid/HLX = 201 mm
+d:Ge/TPSDoseGrid/HLY = 152 mm
+d:Ge/TPSDoseGrid/HLZ = 153 mm
+d:Ge/TPSDoseGrid/TransX = -50.5 mm
+d:Ge/TPSDoseGrid/TransY = 0.5 mm
+d:Ge/TPSDoseGrid/TransZ = 0 mm
+d:Ge/TPSDoseGrid/RotX = 0. deg
+d:Ge/TPSDoseGrid/RotY = 0. deg
+d:Ge/TPSDoseGrid/RotZ = 0. deg
+i:Ge/TPSDoseGrid/XBins = 201
+i:Ge/TPSDoseGrid/YBins = 152
+i:Ge/TPSDoseGrid/ZBins = 153

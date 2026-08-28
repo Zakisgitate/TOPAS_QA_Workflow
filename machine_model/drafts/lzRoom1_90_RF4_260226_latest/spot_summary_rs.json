@@ -1,0 +1,913 @@
+{
+  "planes": [
+    300.0,
+    150.0,
+    0.0,
+    -150.0,
+    -300.0
+  ],
+  "rows": [
+    {
+      "energy_total_mev": 190.19,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 8.44,
+          "y_raw": 8.67
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.98,
+          "y_raw": 11.21
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 13.68,
+          "y_raw": 14.06
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 16.48,
+          "y_raw": 16.52
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 19.31,
+          "y_raw": 19.29
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 192.94,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 8.2,
+          "y_raw": 8.48
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.78,
+          "y_raw": 11.06
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 13.6,
+          "y_raw": 13.73
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 16.14,
+          "y_raw": 16.36
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 18.91,
+          "y_raw": 19.09
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 195.66,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 8.22,
+          "y_raw": 8.36
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.69,
+          "y_raw": 10.83
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 13.44,
+          "y_raw": 13.53
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 16.04,
+          "y_raw": 16.01
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 18.79,
+          "y_raw": 18.71
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 198.36,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 7.93,
+          "y_raw": 8.31
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.48,
+          "y_raw": 10.71
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 13.29,
+          "y_raw": 13.45
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 15.71,
+          "y_raw": 15.89
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 18.62,
+          "y_raw": 18.57
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 201.03,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 7.99,
+          "y_raw": 8.34
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.31,
+          "y_raw": 10.63
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 13.0,
+          "y_raw": 13.31
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 15.51,
+          "y_raw": 15.77
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 18.01,
+          "y_raw": 18.24
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 203.67,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 7.98,
+          "y_raw": 8.36
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.43,
+          "y_raw": 10.68
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 13.05,
+          "y_raw": 13.25
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 15.51,
+          "y_raw": 15.53
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 18.05,
+          "y_raw": 17.94
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 206.28,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 7.79,
+          "y_raw": 8.57
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.16,
+          "y_raw": 10.74
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 12.88,
+          "y_raw": 13.31
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 15.23,
+          "y_raw": 15.5
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 17.88,
+          "y_raw": 17.87
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 208.87,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 7.92,
+          "y_raw": 8.2
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.22,
+          "y_raw": 10.42
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 13.04,
+          "y_raw": 12.81
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 15.24,
+          "y_raw": 15.1
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 17.95,
+          "y_raw": 17.46
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 211.44,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 7.77,
+          "y_raw": 8.29
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.04,
+          "y_raw": 10.39
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 12.73,
+          "y_raw": 12.85
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 15.11,
+          "y_raw": 15.03
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 17.71,
+          "y_raw": 17.35
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 213.98,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 7.52,
+          "y_raw": 8.25
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 9.91,
+          "y_raw": 10.36
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 12.55,
+          "y_raw": 12.68
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 14.73,
+          "y_raw": 14.93
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 17.37,
+          "y_raw": 17.08
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 216.5,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 7.54,
+          "y_raw": 8.24
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 9.7,
+          "y_raw": 10.23
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 12.23,
+          "y_raw": 12.55
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 14.58,
+          "y_raw": 14.68
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 16.94,
+          "y_raw": 16.95
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 219.0,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 8.59,
+          "y_raw": 8.03
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.04,
+          "y_raw": 10.16
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 12.25,
+          "y_raw": 12.44
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 14.15,
+          "y_raw": 14.58
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 16.18,
+          "y_raw": 16.83
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 221.48,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 8.58,
+          "y_raw": 8.08
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.01,
+          "y_raw": 10.06
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 12.07,
+          "y_raw": 12.47
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 14.07,
+          "y_raw": 14.51
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 16.1,
+          "y_raw": 16.55
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 223.94,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 8.55,
+          "y_raw": 7.56
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 10.01,
+          "y_raw": 9.71
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 12.06,
+          "y_raw": 11.92
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 13.95,
+          "y_raw": 14.12
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 15.98,
+          "y_raw": 16.34
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 226.37,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 8.03,
+          "y_raw": 7.81
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 9.54,
+          "y_raw": 9.77
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 11.64,
+          "y_raw": 12.06
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 13.65,
+          "y_raw": 14.13
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 15.84,
+          "y_raw": 16.33
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 228.79,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 7.16,
+          "y_raw": 7.63
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 9.31,
+          "y_raw": 9.66
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 11.71,
+          "y_raw": 11.84
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 13.96,
+          "y_raw": 14.0
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 16.1,
+          "y_raw": 16.02
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 231.19,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.96,
+          "y_raw": 7.37
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.98,
+          "y_raw": 9.39
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 11.29,
+          "y_raw": 11.59
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 13.57,
+          "y_raw": 13.77
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 15.68,
+          "y_raw": 15.69
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 233.58,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.87,
+          "y_raw": 7.15
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.86,
+          "y_raw": 9.2
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 11.17,
+          "y_raw": 11.34
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 13.4,
+          "y_raw": 13.55
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 15.52,
+          "y_raw": 15.56
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 235.94,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.7,
+          "y_raw": 6.94
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.84,
+          "y_raw": 9.07
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 11.08,
+          "y_raw": 11.21
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 13.25,
+          "y_raw": 13.38
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 15.27,
+          "y_raw": 15.45
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 238.29,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.71,
+          "y_raw": 6.85
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.66,
+          "y_raw": 8.83
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.95,
+          "y_raw": 11.08
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 13.08,
+          "y_raw": 13.17
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 15.15,
+          "y_raw": 15.36
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 240.63,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.66,
+          "y_raw": 6.88
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.57,
+          "y_raw": 8.83
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.95,
+          "y_raw": 11.02
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 12.92,
+          "y_raw": 13.06
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 15.03,
+          "y_raw": 15.11
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 242.95,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.62,
+          "y_raw": 6.78
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.68,
+          "y_raw": 8.78
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.88,
+          "y_raw": 10.89
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 13.05,
+          "y_raw": 12.95
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 15.11,
+          "y_raw": 15.02
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 245.25,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.58,
+          "y_raw": 7.16
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.53,
+          "y_raw": 8.96
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.75,
+          "y_raw": 11.09
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 12.91,
+          "y_raw": 13.09
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 15.01,
+          "y_raw": 15.05
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 247.54,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.32,
+          "y_raw": 7.04
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.39,
+          "y_raw": 8.93
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.52,
+          "y_raw": 10.96
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 12.61,
+          "y_raw": 12.95
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 14.67,
+          "y_raw": 14.77
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 249.82,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.33,
+          "y_raw": 6.9
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.37,
+          "y_raw": 8.77
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.52,
+          "y_raw": 10.8
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 12.63,
+          "y_raw": 12.82
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 14.85,
+          "y_raw": 14.68
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 252.09,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.32,
+          "y_raw": 6.88
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.31,
+          "y_raw": 8.66
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.51,
+          "y_raw": 10.7
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 12.65,
+          "y_raw": 12.74
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 14.84,
+          "y_raw": 14.61
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 254.34,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.29,
+          "y_raw": 6.7
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.29,
+          "y_raw": 8.54
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.41,
+          "y_raw": 10.58
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 12.48,
+          "y_raw": 12.52
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 14.56,
+          "y_raw": 14.52
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 256.58,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.17,
+          "y_raw": 6.66
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.06,
+          "y_raw": 8.44
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.3,
+          "y_raw": 10.52
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 12.24,
+          "y_raw": 12.4
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 14.23,
+          "y_raw": 14.43
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 258.81,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.13,
+          "y_raw": 6.66
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.03,
+          "y_raw": 8.43
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.14,
+          "y_raw": 10.48
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 12.16,
+          "y_raw": 12.37
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 14.18,
+          "y_raw": 14.36
+        }
+      ]
+    },
+    {
+      "energy_total_mev": 261.03,
+      "planes": [
+        {
+          "plane": 300.0,
+          "x_raw": 6.18,
+          "y_raw": 6.66
+        },
+        {
+          "plane": 150.0,
+          "x_raw": 8.13,
+          "y_raw": 8.42
+        },
+        {
+          "plane": 0.0,
+          "x_raw": 10.3,
+          "y_raw": 10.42
+        },
+        {
+          "plane": -150.0,
+          "x_raw": 12.27,
+          "y_raw": 12.26
+        },
+        {
+          "plane": -300.0,
+          "x_raw": 14.25,
+          "y_raw": 14.27
+        }
+      ]
+    }
+  ],
+  "row_count": 30,
+  "width_definition": "unspecified in source; values are retained as raw X/Y summary numbers"
+}

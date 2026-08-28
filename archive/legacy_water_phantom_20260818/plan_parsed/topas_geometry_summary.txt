@@ -1,0 +1,53 @@
+PLAN1699 TOPAS patient-geometry summary
+========================================
+TOPAS version: 4.2.p3
+
+Source data
+-----------
+PatientPosition: HFS
+Plan isocenter (DICOM patient): [405.5, 355.5, 294.0] mm
+Gantry / couch: 90 / 0 deg
+RTSTRUCT External bounds: [156,206,144]..[556,506,444] mm
+RTSTRUCT External size: 400 x 300 x 300 mm
+RTSTRUCT External center: [356,356,294] mm
+Artificial CT: all voxels are 0 HU (QA Phantom PTW MP3-P)
+
+TOPAS coordinate convention
+---------------------------
+TOPAS +X/+Y/+Z axes are parallel to DICOM patient +X/+Y/+Z.
+The TOPAS origin is the plan isocenter.
+Therefore: topas_mm = dicom_patient_mm - [405.5,355.5,294.0] mm.
+
+Patient model
+-------------
+Type/material: TsBox / G4_WATER
+Half lengths: [200,150,150] mm
+Center relative to isocenter: [-49.5,+0.5,0.0] mm
+Surrounding material: G4_AIR
+Reason: RTSTRUCT External, not the rectangular all-zero CT FOV, defines water.
+
+Beam-direction validation
+-------------------------
+RPPD integrated dose at patient X > isocenter X: 473127.9998801498
+RPPD integrated dose at patient X < isocenter X: 22923.25856774129
+Fraction on X > isocenter side: 95.3779%
+Interpretation: for HFS, beam enters from patient left (+X) and travels toward
+patient right (-X).
+TOPAS source position: [+300,0,0] mm relative to isocenter.
+TOPAS source component rotation: RotY=+90 deg; TOPAS applies its inverse to
+source vectors, mapping source local +Z to world -X. Stage-6 phase-space planes
+on both sides of the source subsequently verified this sign explicitly.
+
+Scope and limitations
+---------------------
+This stage uses chargedgeantino trajectories for geometry visualization only.
+It does not implement clinical carbon-ion energies, spots, angular/energy spread,
+MRF4 geometry, HU calibration, transport physics validation, or dose scoring.
+No IEC-to-TOPAS sign mapping is being inferred beyond this beam direction; the
+direction was validated against this case's physical-dose distribution.
+
+TOPAS validation result
+-----------------------
+TOPAS 4.2.p3 / Geant4 11.3.p2 completed 25/25 chargedgeantino histories.
+Patient, isocenter marker, RPPD grid outline and beam-axis guide all passed the
+TOPAS overlap check. No unused project component was reported.

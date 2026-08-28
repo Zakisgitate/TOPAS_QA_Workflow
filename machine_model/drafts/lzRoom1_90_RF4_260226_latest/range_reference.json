@@ -1,0 +1,498 @@
+{
+  "rows": [
+    {
+      "energy_mevu": 120.26,
+      "value": 33.3
+    },
+    {
+      "energy_mevu": 123.91,
+      "value": 35.2
+    },
+    {
+      "energy_mevu": 127.51,
+      "value": 37.2
+    },
+    {
+      "energy_mevu": 131.05,
+      "value": 39.2
+    },
+    {
+      "energy_mevu": 134.55,
+      "value": 41.2
+    },
+    {
+      "energy_mevu": 138.0,
+      "value": 43.2
+    },
+    {
+      "energy_mevu": 141.4,
+      "value": 45.3
+    },
+    {
+      "energy_mevu": 144.75,
+      "value": 47.3
+    },
+    {
+      "energy_mevu": 148.06,
+      "value": 49.3
+    },
+    {
+      "energy_mevu": 151.32,
+      "value": 51.4
+    },
+    {
+      "energy_mevu": 154.54,
+      "value": 53.5
+    },
+    {
+      "energy_mevu": 157.72,
+      "value": 55.5
+    },
+    {
+      "energy_mevu": 160.86,
+      "value": 57.5
+    },
+    {
+      "energy_mevu": 163.95,
+      "value": 59.6
+    },
+    {
+      "energy_mevu": 167.01,
+      "value": 61.6
+    },
+    {
+      "energy_mevu": 170.03,
+      "value": 63.6
+    },
+    {
+      "energy_mevu": 173.01,
+      "value": 65.7
+    },
+    {
+      "energy_mevu": 175.96,
+      "value": 67.8
+    },
+    {
+      "energy_mevu": 178.87,
+      "value": 69.8
+    },
+    {
+      "energy_mevu": 181.75,
+      "value": 72.0
+    },
+    {
+      "energy_mevu": 184.59,
+      "value": 74.0
+    },
+    {
+      "energy_mevu": 187.41,
+      "value": 76.0
+    },
+    {
+      "energy_mevu": 190.19,
+      "value": 78.2
+    },
+    {
+      "energy_mevu": 192.94,
+      "value": 80.2
+    },
+    {
+      "energy_mevu": 195.66,
+      "value": 82.2
+    },
+    {
+      "energy_mevu": 198.36,
+      "value": 84.2
+    },
+    {
+      "energy_mevu": 201.03,
+      "value": 86.2
+    },
+    {
+      "energy_mevu": 203.67,
+      "value": 88.2
+    },
+    {
+      "energy_mevu": 206.28,
+      "value": 90.3
+    },
+    {
+      "energy_mevu": 208.87,
+      "value": 92.1
+    },
+    {
+      "energy_mevu": 211.44,
+      "value": 94.2
+    },
+    {
+      "energy_mevu": 213.98,
+      "value": 96.1
+    },
+    {
+      "energy_mevu": 216.5,
+      "value": 98.1
+    },
+    {
+      "energy_mevu": 219.0,
+      "value": 100.1
+    },
+    {
+      "energy_mevu": 221.48,
+      "value": 102.1
+    },
+    {
+      "energy_mevu": 223.94,
+      "value": 104.1
+    },
+    {
+      "energy_mevu": 226.37,
+      "value": 106.1
+    },
+    {
+      "energy_mevu": 228.79,
+      "value": 108.1
+    },
+    {
+      "energy_mevu": 231.19,
+      "value": 110.1
+    },
+    {
+      "energy_mevu": 233.58,
+      "value": 112.3
+    },
+    {
+      "energy_mevu": 235.94,
+      "value": 114.2
+    },
+    {
+      "energy_mevu": 238.29,
+      "value": 116.2
+    },
+    {
+      "energy_mevu": 240.63,
+      "value": 118.0
+    },
+    {
+      "energy_mevu": 242.95,
+      "value": 119.9
+    },
+    {
+      "energy_mevu": 245.25,
+      "value": 121.9
+    },
+    {
+      "energy_mevu": 247.54,
+      "value": 123.9
+    },
+    {
+      "energy_mevu": 249.82,
+      "value": 125.9
+    },
+    {
+      "energy_mevu": 252.09,
+      "value": 127.8
+    },
+    {
+      "energy_mevu": 254.34,
+      "value": 129.8
+    },
+    {
+      "energy_mevu": 256.58,
+      "value": 131.8
+    },
+    {
+      "energy_mevu": 258.81,
+      "value": 133.6
+    },
+    {
+      "energy_mevu": 261.03,
+      "value": 135.6
+    },
+    {
+      "energy_mevu": 263.23,
+      "value": 137.6
+    },
+    {
+      "energy_mevu": 265.43,
+      "value": 139.6
+    },
+    {
+      "energy_mevu": 267.62,
+      "value": 141.4
+    },
+    {
+      "energy_mevu": 269.8,
+      "value": 143.4
+    },
+    {
+      "energy_mevu": 271.97,
+      "value": 145.4
+    },
+    {
+      "energy_mevu": 274.13,
+      "value": 147.4
+    },
+    {
+      "energy_mevu": 276.28,
+      "value": 149.4
+    },
+    {
+      "energy_mevu": 278.42,
+      "value": 151.4
+    },
+    {
+      "energy_mevu": 280.56,
+      "value": 153.3
+    },
+    {
+      "energy_mevu": 282.69,
+      "value": 155.2
+    },
+    {
+      "energy_mevu": 284.81,
+      "value": 157.2
+    },
+    {
+      "energy_mevu": 286.93,
+      "value": 159.3
+    },
+    {
+      "energy_mevu": 289.04,
+      "value": 161.3
+    },
+    {
+      "energy_mevu": 291.14,
+      "value": 163.3
+    },
+    {
+      "energy_mevu": 293.24,
+      "value": 165.3
+    },
+    {
+      "energy_mevu": 295.33,
+      "value": 167.1
+    },
+    {
+      "energy_mevu": 297.42,
+      "value": 169.1
+    },
+    {
+      "energy_mevu": 299.5,
+      "value": 171.2
+    },
+    {
+      "energy_mevu": 301.57,
+      "value": 173.2
+    },
+    {
+      "energy_mevu": 303.64,
+      "value": 175.0
+    },
+    {
+      "energy_mevu": 305.71,
+      "value": 177.1
+    },
+    {
+      "energy_mevu": 307.77,
+      "value": 179.1
+    },
+    {
+      "energy_mevu": 309.82,
+      "value": 181.1
+    },
+    {
+      "energy_mevu": 311.87,
+      "value": 183.2
+    },
+    {
+      "energy_mevu": 313.91,
+      "value": 185.0
+    },
+    {
+      "energy_mevu": 315.95,
+      "value": 187.1
+    },
+    {
+      "energy_mevu": 317.99,
+      "value": 189.1
+    },
+    {
+      "energy_mevu": 320.02,
+      "value": 191.2
+    },
+    {
+      "energy_mevu": 322.04,
+      "value": 193.2
+    },
+    {
+      "energy_mevu": 324.06,
+      "value": 195.3
+    },
+    {
+      "energy_mevu": 326.08,
+      "value": 197.4
+    },
+    {
+      "energy_mevu": 328.09,
+      "value": 199.4
+    },
+    {
+      "energy_mevu": 330.09,
+      "value": 201.5
+    },
+    {
+      "energy_mevu": 332.09,
+      "value": 203.6
+    },
+    {
+      "energy_mevu": 334.09,
+      "value": 205.7
+    },
+    {
+      "energy_mevu": 336.08,
+      "value": 207.8
+    },
+    {
+      "energy_mevu": 338.06,
+      "value": 209.9
+    },
+    {
+      "energy_mevu": 340.04,
+      "value": 211.9
+    },
+    {
+      "energy_mevu": 342.01,
+      "value": 214.1
+    },
+    {
+      "energy_mevu": 343.97,
+      "value": 216.2
+    },
+    {
+      "energy_mevu": 345.93,
+      "value": 218.3
+    },
+    {
+      "energy_mevu": 347.88,
+      "value": 220.1
+    },
+    {
+      "energy_mevu": 349.83,
+      "value": 222.2
+    },
+    {
+      "energy_mevu": 351.77,
+      "value": 223.9
+    },
+    {
+      "energy_mevu": 353.7,
+      "value": 226.0
+    },
+    {
+      "energy_mevu": 355.62,
+      "value": 228.2
+    },
+    {
+      "energy_mevu": 357.53,
+      "value": 230.3
+    },
+    {
+      "energy_mevu": 359.44,
+      "value": 232.4
+    },
+    {
+      "energy_mevu": 361.34,
+      "value": 234.4
+    },
+    {
+      "energy_mevu": 363.23,
+      "value": 236.2
+    },
+    {
+      "energy_mevu": 365.1,
+      "value": 238.2
+    },
+    {
+      "energy_mevu": 366.97,
+      "value": 240.3
+    },
+    {
+      "energy_mevu": 368.83,
+      "value": 241.9
+    },
+    {
+      "energy_mevu": 370.68,
+      "value": 244.0
+    },
+    {
+      "energy_mevu": 372.51,
+      "value": 246.0
+    },
+    {
+      "energy_mevu": 374.34,
+      "value": 248.1
+    },
+    {
+      "energy_mevu": 376.15,
+      "value": 250.0
+    },
+    {
+      "energy_mevu": 377.95,
+      "value": 252.0
+    },
+    {
+      "energy_mevu": 379.73,
+      "value": 254.0
+    },
+    {
+      "energy_mevu": 381.51,
+      "value": 255.6
+    },
+    {
+      "energy_mevu": 383.26,
+      "value": 257.4
+    },
+    {
+      "energy_mevu": 385.01,
+      "value": 259.5
+    },
+    {
+      "energy_mevu": 386.73,
+      "value": 261.4
+    },
+    {
+      "energy_mevu": 388.44,
+      "value": 263.3
+    },
+    {
+      "energy_mevu": 390.14,
+      "value": 265.2
+    },
+    {
+      "energy_mevu": 391.82,
+      "value": 267.1
+    },
+    {
+      "energy_mevu": 393.47,
+      "value": 269.0
+    },
+    {
+      "energy_mevu": 395.11,
+      "value": 270.3
+    },
+    {
+      "energy_mevu": 396.73,
+      "value": 272.1
+    },
+    {
+      "energy_mevu": 398.34,
+      "value": 274.0
+    },
+    {
+      "energy_mevu": 399.92,
+      "value": 275.8
+    }
+  ],
+  "row_count": 123,
+  "role": "cross_check_only"
+}

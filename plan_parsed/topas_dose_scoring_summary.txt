@@ -1,0 +1,59 @@
+TPS-TOPAS DoseToMedium scoring-grid summary
+===============================================
+Status: CONFIGURED
+
+Read-only source DICOM
+----------------------
+RPPD: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTDOSE/RTDOSE_00003.dcm
+RPPD SOPInstanceUID: 1.2.826.0.1.3680043.10.1049.20260427104048517000015820
+RT Ion Plan: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTPLAN/RTPLAN_00001.dcm
+RTPLAN SOPInstanceUID: 1.2.826.0.1.3680043.10.1049.20260427104048539000015845
+FrameOfReferenceUID: 1.3.12.2.1107.5.99.3.99.107016.30000019022311404450200000242
+Dose identity: GY / PHYSICAL / PLAN
+
+Exact TPS grid
+--------------
+DICOM array shape [frames Z, rows Y, columns X]: [153, 152, 201]
+TOPAS bins [X, Y, Z]: [201, 152, 153]
+Voxel spacing [X, Y, Z]: [2, 2, 2] mm
+First voxel center DICOM [X, Y, Z]: [155, 205, 142] mm
+Last voxel center DICOM [X, Y, Z]: [555, 507, 446] mm
+Voxel edge bounds DICOM: [154, 204, 141] .. [556, 508, 447] mm
+Grid center DICOM: [355, 356, 294] mm
+
+TOPAS placement
+---------------
+TOPAS origin / plan isocenter DICOM: [405.5, 355.5, 294] mm
+Grid half lengths [X, Y, Z]: [201, 152, 153] mm
+Grid translation [X, Y, Z]: [-50.5, 0.5, 0] mm
+First voxel center TOPAS [X, Y, Z]: [-250.5, -150.5, -152] mm
+Last voxel center TOPAS [X, Y, Z]: [149.5, 151.5, 152] mm
+Grid type: parallel-world TsBox (does not replace or overlap mass geometry)
+
+Scoring and output
+------------------
+Quantity: DoseToMedium, report Sum, unit Gy
+Output: native TOPAS binary (one double per voxel) plus .binheader
+OutputAfterRun: False, so all sequential spot runs accumulate into one grid
+Production collision policy: Exit (no silent overwrite)
+Production output base: topas_output/production/RTDOSE_00003_DoseToMedium_TPSGrid
+
+TOPAS binary index mapping
+--------------------------
+TOPAS writes X fastest, then Y, then Z. On this machine, read with:
+  dose_zyx = numpy.fromfile(path, dtype=numpy.float64).reshape((153, 152, 201))
+This shape/order matches pydicom's RPPD pixel_array [frame, row, column].
+
+Generated outputs
+-----------------
+/Users/jiangzhenmin/Desktop/PLAN1699_副本/topas/scoring/dose_grid.txt
+/Users/jiangzhenmin/Desktop/PLAN1699_副本/topas/scoring/dose.txt
+/Users/jiangzhenmin/Desktop/PLAN1699_副本/plan_parsed/topas_dose_scoring_summary.txt
+
+
+Scope guard
+-----------
+This stage configures the physical-dose grid only. It does not run a low-statistics
+or production transport calculation, does not compare dose values, and does not
+convert relative meterset weight to absolute particles/MU. RPED EFFECTIVE dose is
+not used as the physical-dose reference.

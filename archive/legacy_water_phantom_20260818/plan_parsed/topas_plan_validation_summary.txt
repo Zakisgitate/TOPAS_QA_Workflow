@@ -1,0 +1,24 @@
+PLAN1699 generated TOPAS plan validation
+========================================
+Status: PASS
+Allocation: /Users/jiangzhenmin/Desktop/PLAN1699/plan_parsed/plan_validation_history_allocation.csv
+Forward phase space: /Users/jiangzhenmin/Desktop/PLAN1699/topas_output/test/plan_validation_phase_space.phsp
+Reverse-plane header: /Users/jiangzhenmin/Desktop/PLAN1699/topas_output/test/plan_validation_reverse_phase_space.header
+
+Forward histories / C12 particles: 3000 / 3000
+Forward world direction cosine X range: -1 .. -1
+Kinetic energy range: 1443.12 .. 3185.16 MeV
+Reverse (+X) plane reached histories: 0
+
+Per-run checks
+--------------
+Run 0: N=1346, E=1443.12 MeV; Y mean/sigma=-28.37488/6.10323 mm (expected -28.60000/6.07753); Z mean/sigma=-33.25887/6.00043 mm (expected -33.00000/6.07753)
+Run 1: N=881, E=2444.04 MeV; Y mean/sigma=-21.67977/4.14564 mm (expected -21.60000/4.18142); Z mean/sigma=6.84361/4.36991 mm (expected 7.00000/4.18142)
+Run 2: N=773, E=3185.16 MeV; Y mean/sigma=-56.35090/3.29075 mm (expected -56.30000/3.34015); Z mean/sigma=50.91553/3.22535 mm (expected 51.00000/3.34015)
+
+Tolerance: spot means within 4 standard errors; sampled sigma within 8 percent.
+Validation physics: Transportation_Only (source reconstruction, not dose physics).
+
+Failures
+--------
+None

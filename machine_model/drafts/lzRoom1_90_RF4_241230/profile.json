@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "model_kind": "measured_idd_discrete_spectrum_plus_constrained_fermi_eyges_emittance",
+  "treatment_machine_name": "lzRoom1_90_RF4_241230",
+  "source_plane_upstream_mm": 680.0,
+  "expected_vsad_mm": [
+    6244.12,
+    7020.28
+  ],
+  "vsad_tolerance_mm": 25.0,
+  "water_mean_excitation_energy_ev": 75.0,
+  "units": {
+    "phase_space_position_sigma": "mm",
+    "phase_space_angular_sigma": "rad",
+    "energy_spectrum": "total MeV per carbon ion"
+  },
+  "nozzle_wet_policy": "not_added; measured IDD-derived spectrum includes upstream beamline loss",
+  "fluence_policy": "spot meterset multiplied by energy-dependent number-per-MU before relative history allocation",
+  "phase_space_fit_validation": {
+    "depth_mapping": "reverse_sigma_order",
+    "maximum_rmse_mm": 0.25,
+    "maximum_isocenter_error_mm": 0.25
+  },
+  "files": {
+    "energy_spectrum": "energy_spectrum.json",
+    "phase_space": "phase_space.json",
+    "number_per_mu": "number_per_mu.txt",
+    "measured_idd": "measured_pristine_bragg_peaks.csv",
+    "measured_spot_sigma": "measured_spot_sigma.csv",
+    "energy_list": "commissioned_energy_list.txt"
+  },
+  "sha256": {
+    "energy_spectrum": "0a967c3311b7b9309a87903941dc727e8d0c89411d10a88cf4e74f9db209dc1a",
+    "phase_space": "0af6d9e55b61fe1b77b05828b19dfc3dc0b3e42c3df7725e5c8c8ec833700074",
+    "number_per_mu": "6a878b66134e4db02ac7e288885fb376e3d7b4f72de75e2579cfa921ca87447c",
+    "measured_idd": "03632edb9fff0326492bcd1525d4295b73170a834aeb854a3e5e7a6494a2581e",
+    "measured_spot_sigma": "977969ad8f1bb6f989dca9181d9025cb8ae19024cb665acbf4304cd1b9e815aa",
+    "energy_list": "c7902bced084d8f1a3b9c7454c4acc22ff33eca5878f89602156663e1676c754"
+  },
+  "provenance": {
+    "source": "configData/machine_3/beamQuality_3",
+    "created_utc": "2026-08-25T06:55:29.588207+00:00",
+    "method": "NNLS measured-IDT spectrum against ideal-water I=75eV kernel; constrained Fermi-Eyges SpotSigma fit"
+  },
+  "draft_status": "unapproved_not_imported_not_for_clinical_use",
+  "limitations": [
+    "TreatmentMachineName is provisional until verified against a future LanZhou RTPLAN.",
+    "source_plane_upstream_mm=680 is a provisional fitting convention.",
+    "NNLS kernels are 1 mm depth-rebinned; this is not a 0.5 mm commissioning fit.",
+    "Not imported into the GUI and not approved for clinical use."
+  ]
+}

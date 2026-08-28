@@ -1,0 +1,49 @@
+# AUTO-GENERATED FILE -- DO NOT EDIT SPOTS BY HAND
+# Generator: scripts/04_generate_topas_plan.py
+# Source: /Users/jiangzhenmin/Desktop/PLAN1699/plan_parsed/spots.csv
+# Spots / active layers: 3 / 3
+# Allocated relative-weight histories: 3000
+# Energy conversion: TOPAS total kinetic MeV = DICOM MeV/u * A(12)
+# Coordinate mapping: local X = IEC Y; local Y = IEC X (signs preserved)
+# Spot-size conversion: TOPAS sigma = DICOM FWHM / 2.354820045
+# Energy spread = 0 and angular distribution = None are explicit
+# uncommissioned placeholders inherited from beam/beam_model.txt.
+# MRF4 geometry is not included; see beam/MRF4.txt.
+
+includeFile = beam/beam_model.txt
+
+s:Tf/PlanSpotLocalX/Function = "Step"
+dv:Tf/PlanSpotLocalX/Times = 3 1. 2. 3. s
+dv:Tf/PlanSpotLocalX/Values = 3 -33 7 51 mm
+
+s:Tf/PlanSpotLocalY/Function = "Step"
+dv:Tf/PlanSpotLocalY/Times = 3 1. 2. 3. s
+dv:Tf/PlanSpotLocalY/Values = 3 -28.60000038 -21.60000038 -56.29999924 mm
+
+s:Tf/PlanEnergyTotal/Function = "Step"
+dv:Tf/PlanEnergyTotal/Times = 3 1. 2. 3. s
+dv:Tf/PlanEnergyTotal/Values = 3 1443.12 2444.04 3185.16 MeV
+
+s:Tf/PlanSigmaLocalX/Function = "Step"
+dv:Tf/PlanSigmaLocalX/Times = 3 1. 2. 3. s
+dv:Tf/PlanSigmaLocalX/Values = 3 6.077534301 4.181423722 3.340149037 mm
+
+s:Tf/PlanSigmaLocalY/Function = "Step"
+dv:Tf/PlanSigmaLocalY/Times = 3 1. 2. 3. s
+dv:Tf/PlanSigmaLocalY/Values = 3 6.077534301 4.181423722 3.340149037 mm
+
+s:Tf/PlanHistories/Function = "Step"
+dv:Tf/PlanHistories/Times = 3 1. 2. 3. s
+iv:Tf/PlanHistories/Values = 3 1346 881 773
+
+d:Ge/PlanSpotPosition/TransX = Tf/PlanSpotLocalX/Value mm
+d:Ge/PlanSpotPosition/TransY = Tf/PlanSpotLocalY/Value mm
+d:So/PlanCarbonBeam/BeamEnergy = Tf/PlanEnergyTotal/Value MeV
+d:So/PlanCarbonBeam/BeamPositionSpreadX = Tf/PlanSigmaLocalX/Value mm
+d:So/PlanCarbonBeam/BeamPositionSpreadY = Tf/PlanSigmaLocalY/Value mm
+i:So/PlanCarbonBeam/NumberOfHistoriesInRun = Tf/PlanHistories/Value
+
+d:Tf/TimelineStart = 0. s
+d:Tf/TimelineEnd = 3. s
+i:Tf/NumberOfSequentialTimes = 3
+i:Tf/Verbosity = 0

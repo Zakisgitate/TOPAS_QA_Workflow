@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "calibration_kind": "machine_specific_energy_dependent_particle_number",
+  "treatment_machine_name": "lzRoom1_90_RF4_241230",
+  "commissioned_profile": {
+    "file": "profile.json",
+    "sha256": "698b727cb33ce344f84416957a1fe5ba947e1649ad42baa3971aa57930aff29e",
+    "fingerprint": "a3ebca0437f3a560d445c29648c4f680051e2da91516552836598aff64441303"
+  },
+  "number_per_mu": {
+    "file": "number_per_mu.txt",
+    "sha256": "6a878b66134e4db02ac7e288885fb376e3d7b4f72de75e2579cfa921ca87447c",
+    "units": "primary carbon ions per MU",
+    "scope": "machine_specific_and_energy_dependent"
+  },
+  "dose_output_correction": {
+    "factor": 1.0,
+    "status": "identity_no_empirical_correction",
+    "scope": "machine_beam_model_transport_and_measurement_protocol_specific"
+  },
+  "draft_status": "unapproved_not_imported_not_for_clinical_use"
+}

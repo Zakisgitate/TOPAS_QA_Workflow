@@ -1,0 +1,26 @@
+# AUTO-GENERATED FILE -- DO NOT EDIT GRID VALUES BY HAND
+# Generator: scripts/03_build_topas_dose_scoring.py
+# TPS reference: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTDOSE/RTDOSE_00003.dcm
+# RPPD SOPInstanceUID: 1.2.826.0.1.3680043.10.1049.20260427104048517000015820
+# DICOM [frames, rows, columns] = [153, 152, 201]
+# DICOM voxel centers map directly to TOPAS [Z, Y, X] binary-array indices.
+
+includeFile = beam/plan_generated.txt
+
+# Parallel-world grid: it cannot displace or overlap the mass-geometry patient.
+# Its axes are parallel to DICOM patient X/Y/Z and its origin is the plan isocenter.
+s:Ge/TPSDoseGrid/Type = "TsBox"
+s:Ge/TPSDoseGrid/Parent = "World"
+b:Ge/TPSDoseGrid/IsParallel = "True"
+d:Ge/TPSDoseGrid/HLX = 201 mm
+d:Ge/TPSDoseGrid/HLY = 152 mm
+d:Ge/TPSDoseGrid/HLZ = 153 mm
+d:Ge/TPSDoseGrid/TransX = -50.5 mm
+d:Ge/TPSDoseGrid/TransY = 0.5 mm
+d:Ge/TPSDoseGrid/TransZ = 0 mm
+d:Ge/TPSDoseGrid/RotX = 0. deg
+d:Ge/TPSDoseGrid/RotY = 0. deg
+d:Ge/TPSDoseGrid/RotZ = 0. deg
+i:Ge/TPSDoseGrid/XBins = 201
+i:Ge/TPSDoseGrid/YBins = 152
+i:Ge/TPSDoseGrid/ZBins = 153

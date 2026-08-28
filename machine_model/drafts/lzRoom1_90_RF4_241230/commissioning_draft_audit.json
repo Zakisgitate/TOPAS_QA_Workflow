@@ -1,0 +1,32 @@
+{
+  "draft_status": "unapproved_not_imported_not_for_clinical_use",
+  "machine_name": "lzRoom1_90_RF4_241230",
+  "kernel_library": {
+    "path": "/Users/jiangzhenmin/Desktop/TOPAS_Test/Hangzhou/1685/TOPAS计划验证/01 束流commission/I75eV_from_results5",
+    "sha256_energy_mapping": "5b279cbfaa8a47f8f23d32ae086e9936b91907b3ea3a9cf662c2768e69e148ce",
+    "available_kernel_count": 740,
+    "energy_range_mevu": [
+      79.5,
+      450.0
+    ],
+    "depth_sampling_mm": 1.0,
+    "water_mean_excitation_energy_ev": 75.0
+  },
+  "spectrum_fit": {
+    "curve_count": 123,
+    "median_normalized_rmse": 0.007929128918614328,
+    "maximum_normalized_rmse": 0.07386864318260145,
+    "median_r80_delta_mm": 0.0027813817402488894,
+    "maximum_abs_r80_delta_mm": 0.7252696183475678,
+    "weight_threshold": 0.01
+  },
+  "phase_space_fit": {
+    "source_plane_upstream_mm": 680.0,
+    "depth_mapping": "reverse_sigma_order",
+    "curve_count": 123,
+    "median_rmse_mm": 0.0022189564320867316,
+    "maximum_rmse_mm": 0.03563707244159835,
+    "median_isocenter_error_mm": 0.0025271714482295593,
+    "maximum_isocenter_error_mm": 0.04400046369164334
+  }
+}

@@ -1,0 +1,16 @@
+Check,Status,Details
+SINGLE_BEAM,PASS,beam count=1
+CARBON_12_FULLY_STRIPPED,PASS,RadiationAtomicNumber/MassNumber/ChargeState=6/12/6; expected 6/12/6
+PBS_SCAN_MODE,PASS,ScanMode=MODULATED
+PATIENT_POSITION_HFS,PASS,PatientPosition=HFS
+GANTRY_90,PASS,gantry=90.0 deg
+COUCH_0,PASS,couch=0.0 deg
+PITCH_ROLL_0,PASS,pitch/roll=0.0/0.0 deg
+RPPD_AXIS_ALIGNED,PASS,"ImageOrientationPatient=[1.0, 0.0, 0.0, 0.0, 1.0, 0.0]"
+RPPD_REGULAR_GRID,PASS,"frames=153, PixelSpacing=[2.0, 2.0]"
+SUPPORTED_PATIENT_MODEL,PASS,mode=WATER_PHANTOM; uniform 0-HU artificial CT and rectangular External are used as a water box
+CT_AXIAL_REGULAR_GEOMETRY,PASS,"slices=195, rows/columns=512/512, ImageOrientationPatient=[1.0, 0.0, 0.0, 0.0, 1.0, 0.0], slice spacing=2.0 mm; current TsDicomPatient mapping requires regular axial identity orientation"
+EXTERNAL_ROI_SELECTION,PASS,"selected ROI 1 'External', type=EXTERNAL, points=604"
+RECTANGULAR_EXTERNAL_FOR_WATER_PHANTOM,PASS,selected External rectangular XY=True
+HU_TO_MATERIAL_CALIBRATION,PASS,not applicable: uniform water-box model
+RANGE_MODULATOR_COMMISSIONED,WARN,range modulators=['MRF4']; physical geometry/WET is not commissioned

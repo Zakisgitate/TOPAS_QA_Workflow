@@ -1,0 +1,11 @@
+# Auto-generated water-phantom single-energy single-spot QA run.
+# Research physical-dose validation of the commissioned beam model.
+# Not commissioned absolute clinical dose and not a clinical acceptance test.
+
+includeFile = physics.txt
+
+i:Ts/Seed = 1699
+i:Ts/NumberOfThreads = 4
+i:Ts/ShowHistoryCountAtInterval = 100000
+b:Ge/CheckForOverlaps = "False"
+b:Ts/PauseBeforeQuit = "False"

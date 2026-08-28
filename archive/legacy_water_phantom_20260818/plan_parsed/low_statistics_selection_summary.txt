@@ -1,0 +1,20 @@
+PLAN1699 Stage-8 low-statistics spot selection
+================================================
+Input spot table (read-only): /Users/jiangzhenmin/Desktop/PLAN1699/plan_parsed/spots.csv
+Output subset: /Users/jiangzhenmin/Desktop/PLAN1699/plan_parsed/low_statistics_selected_spots.csv
+Input spots / layers: 56349 / 53
+Selected spots / layers: 265 / 53
+Anchors per layer: center, x_min, x_max, y_min, y_max
+QA weighting: each full-plan layer total is shared equally by its five anchors
+Full-plan / QA meterset sum: 1227723.91113 / 1227723.91113 MU
+Energy range: 120.26 .. 265.43 MeV/u
+Selected X range: -56.29999924 .. 56.29999924 mm
+Selected Y range: -57 .. 58 mm
+
+Scope
+-----
+This deterministic subset covers all 53 energies, preserves every energy layer's
+complete-plan total weight, and samples five spatial field anchors while avoiding
+56,349 sequential Geant4 runs. It is suitable only for coarse direction, range
+and field-location QA. It does not reproduce the complete TPS transverse fluence
+map and must not be used for quantitative TPS-vs-MC dose agreement.

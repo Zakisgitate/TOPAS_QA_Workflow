@@ -1,0 +1,26 @@
+{
+  "draft_status": "incomplete_unapproved_not_imported_not_for_clinical_use",
+  "machine_name": "lzRoom1_90_RF4_260226",
+  "energy_spectrum_fit": {
+    "curve_count": 14,
+    "median_normalized_rmse": 0.011457575399085854,
+    "maximum_normalized_rmse": 0.04104587239254952,
+    "maximum_abs_r80_delta_mm": 0.3312858640158325
+  },
+  "layer_count": 123,
+  "range_count": 123,
+  "range_crosscheck": {
+    "matched_measured_curves": 14,
+    "median_range_minus_idd_r80_mm": 6.00936030581558,
+    "maximum_abs_range_minus_idd_r80_mm": 6.151394016549986
+  },
+  "absolute_count": 123,
+  "spot_air_count": 123,
+  "spot_rs_count": 30,
+  "missing_required_inputs": [
+    "Raw SpotProfile or written confirmation that SpotSummary values are sigma in mm with defined plane convention",
+    "Primary carbon ions per MU NF(E) table or approved calibration pathway",
+    "LanZhou RTPLAN with exact TreatmentMachineName and VSAD identity",
+    "Range.csv depth origin and R80 definition/correction confirmation"
+  ]
+}

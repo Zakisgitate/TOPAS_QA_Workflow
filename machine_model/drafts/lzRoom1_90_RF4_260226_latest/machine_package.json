@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "package_kind": "beam_commissioning_data_intake_draft",
+  "package_version": "lzRoom1_90_RF4_260226-data-intake-20260826",
+  "subject": {
+    "treatment_machine_name": "lzRoom1_90_RF4_260226"
+  },
+  "approval": {
+    "status": "draft_incomplete_unapproved",
+    "approved_by": "",
+    "approved_at": ""
+  },
+  "files": {
+    "energy_spectrum": "energy_spectrum.json",
+    "energy_spectrum_fit_audit": "energy_spectrum_fit_audit.csv",
+    "measured_idd": "IDD_lzRoom1_90_RF4.csv",
+    "range_reference": "range_reference.json",
+    "range_crosscheck": "range_crosscheck.csv",
+    "absolute_reference": "absolute_reference.json",
+    "energy_limits": "energy_limits.json",
+    "spot_summary_air": "spot_summary_air.json",
+    "spot_summary_rs": "spot_summary_rs.json",
+    "machine_template_values": "machine_template_values.json",
+    "energy_list": "energy_list_mevu.txt",
+    "measured_spot_sigma": "measured_spot_sigma.csv",
+    "spot_sigma_derivation": "spot_sigma_derivation.json",
+    "phase_space": "phase_space.json",
+    "phase_space_fit_audit": "phase_space_fit_audit.csv",
+    "spot_profile_coeff": "SpotProfileCoeff.csv"
+  },
+  "provenance": {
+    "source_root": "/Users/jiangzhenmin/Desktop/兰州1号室RF4(260226最小mu和机器参数更新，RS厚度改为30.05-25A模板)",
+    "created_utc": "2026-08-26T01:43:31.625383+00:00",
+    "kernel_library": "/Users/jiangzhenmin/Desktop/TOPAS_Test/Hangzhou/1685/TOPAS计划验证/01 束流commission/I75eV_from_results5",
+    "method": "NNLS measured-IDT spectrum against existing ideal-water kernels; no phase-space or NF(E) fabricated"
+  },
+  "missing_required_inputs": [
+    "Independent sign-off that the matched LanZhou/9973 TOPAS_Test SpotSigma processing remains applicable to the 260226 machine release",
+    "Primary carbon ions per MU NF(E) table or approved calibration pathway",
+    "LanZhou RTPLAN with exact TreatmentMachineName and VSAD identity",
+    "Range.csv depth origin and R80 definition/correction confirmation"
+  ]
+}

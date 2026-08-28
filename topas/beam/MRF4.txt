@@ -1,0 +1,21 @@
+# Range-modulator interface -- NOT YET A PHYSICAL GEOMETRY
+#
+# RTPLAN evidence:
+#   RangeModulatorID          = MRF4
+#   RangeModulatorType        = FIXED
+#   RangeModulatorDescription = Mini ridge filter 4mm
+#
+# No ridge dimensions/profile, material, position/orientation, manufacturing
+# tolerances or validated WET data are present in the DICOM export. Defining a
+# TOPAS solid from the name "MRF4" alone would invent a machine parameter.
+# Therefore this file deliberately contributes no Ge/* component. The current
+# generated plan is an explicit NO-MRF4 baseline and is not a commissioned
+# clinical beam model.
+#
+# TODO before MRF4-enabled dose comparison:
+#   1. Obtain an engineering drawing/CAD or measured ridge profile and pitch.
+#   2. Obtain material composition/density and placement relative to isocenter.
+#   3. Obtain energy-dependent IDD/range validation with and without MRF4.
+#   4. Implement the geometry here and validate WET, range and modulation.
+
+includeFile = beam/beam_geometry.txt

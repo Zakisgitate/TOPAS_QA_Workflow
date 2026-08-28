@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "package_kind": "beam_commissioning",
+  "package_version": "draft-machine3-20260825",
+  "subject": {
+    "treatment_machine_name": "lzRoom1_90_RF4_241230"
+  },
+  "files": {
+    "profile": "profile.json",
+    "particle_calibration": "particle_calibration.json",
+    "energy_spectrum": "energy_spectrum.json",
+    "phase_space": "phase_space.json",
+    "number_per_mu": "number_per_mu.txt",
+    "measured_idd": "measured_pristine_bragg_peaks.csv",
+    "measured_spot_sigma": "measured_spot_sigma.csv",
+    "energy_list": "commissioned_energy_list.txt"
+  },
+  "sha256": {
+    "profile": "698b727cb33ce344f84416957a1fe5ba947e1649ad42baa3971aa57930aff29e",
+    "particle_calibration": "b9b2eb65d195c3094af3e4e7c2925d91bf0ea5a6bbd36b8fe0b03f6fadf18647",
+    "energy_spectrum": "0a967c3311b7b9309a87903941dc727e8d0c89411d10a88cf4e74f9db209dc1a",
+    "phase_space": "0af6d9e55b61fe1b77b05828b19dfc3dc0b3e42c3df7725e5c8c8ec833700074",
+    "number_per_mu": "6a878b66134e4db02ac7e288885fb376e3d7b4f72de75e2579cfa921ca87447c",
+    "measured_idd": "03632edb9fff0326492bcd1525d4295b73170a834aeb854a3e5e7a6494a2581e",
+    "measured_spot_sigma": "977969ad8f1bb6f989dca9181d9025cb8ae19024cb665acbf4304cd1b9e815aa",
+    "energy_list": "c7902bced084d8f1a3b9c7454c4acc22ff33eca5878f89602156663e1676c754"
+  },
+  "provenance": {
+    "source": "configData/machine_3/beamQuality_3",
+    "created_utc": "2026-08-25T06:55:29.588207+00:00",
+    "method": "NNLS measured-IDT spectrum against ideal-water I=75eV kernel; constrained Fermi-Eyges SpotSigma fit"
+  },
+  "approval": {
+    "status": "draft_unapproved",
+    "approved_by": "",
+    "approved_at": "",
+    "evidence": "Awaiting fit-audit review and LanZhou RTPLAN identity."
+  }
+}

@@ -1,0 +1,66 @@
+# Auto-generated scorer/grid zero-history initialization.
+includeFile = scoring/dose.txt
+
+sv:Ph/Default/Modules = 1 "Transportation_Only"
+
+i:Tf/NumberOfSequentialTimes = 1
+i:So/PlanCarbonBeam/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer001/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer002/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer003/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer004/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer005/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer006/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer007/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer008/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer009/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer010/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer011/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer012/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer013/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer014/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer015/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer016/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer017/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer018/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer019/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer020/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer021/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer022/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer023/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer024/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer025/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer026/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer027/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer028/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer029/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer030/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer031/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer032/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer033/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer034/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer035/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer036/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer037/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer038/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer039/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer040/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer041/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer042/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer043/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer044/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer045/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer046/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer047/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer048/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer049/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer050/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer051/NumberOfHistoriesInRun = 0
+ic:So/PlanCarbonBeamLayer052/NumberOfHistoriesInRun = 0
+
+s:Sc/TPSDoseToMedium/OutputFile = "../topas_output/test/dose_grid_zero_validation"
+s:Sc/TPSDoseToMedium/IfOutputFileAlreadyExists = "Overwrite"
+
+b:Ge/CheckForOverlaps = "False"
+i:Ts/NumberOfThreads = 1
+b:Ts/PauseBeforeQuit = "False"

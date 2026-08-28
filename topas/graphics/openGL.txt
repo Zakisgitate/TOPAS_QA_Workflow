@@ -1,0 +1,26 @@
+# Interactive geometry view: selected patient model, TPS dose-grid outline, isocenter,
+# beam-axis guide and 25 non-interacting direction trajectories.
+includeFile = physics/geometry_only.txt
+
+s:Gr/GeometryView/Type = "OpenGL"
+b:Gr/GeometryView/Active = "True"
+i:Gr/GeometryView/WindowSizeX = 1100
+i:Gr/GeometryView/WindowSizeY = 850
+s:Gr/GeometryView/Projection = "Perspective"
+d:Gr/GeometryView/PerspectiveAngle = 18. deg
+d:Gr/GeometryView/Theta = 65. deg
+d:Gr/GeometryView/Phi = 35. deg
+u:Gr/GeometryView/Zoom = 1.25
+
+b:Gr/GeometryView/IncludeGeometry = "True"
+b:Gr/GeometryView/IncludeTrajectories = "True"
+b:Gr/GeometryView/IncludeAxes = "True"
+s:Gr/GeometryView/AxesComponent = "World"
+d:Gr/GeometryView/AxesSize = 100. mm
+s:Gr/GeometryView/ColorBy = "ParticleType"
+sv:Gr/GeometryView/ColorByParticleTypeNames = 1 "chargedgeantino"
+sv:Gr/GeometryView/ColorByParticleTypeColors = 1 "fuchsia"
+b:Gr/GeometryView/HiddenLineRemovalForGeometry = "False"
+b:Gr/GeometryView/HiddenLineRemovalForTrajectories = "False"
+s:Gr/GeometryView/BackgroundColor = "white"
+i:Gr/GeometryView/LineWidth = 2

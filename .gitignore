@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Python virtual env
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Claude local settings
+.claude/
+
+# Large / sensitive data
+dicom/
+dicom_archive/
+analysis/
+topas_output/

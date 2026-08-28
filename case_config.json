@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "TPS-TOPAS carbon-ion PBS physical-dose shape QA",
+  "supported_scope": {
+    "beam_count": 1,
+    "patient_position": "HFS",
+    "gantry_deg": 90,
+    "couch_deg": 0,
+    "patient_models": [
+      "axis-aligned rectangular water phantom",
+      "axial DICOM CT with generic uncommissioned Schneider conversion"
+    ],
+    "beam_models": [
+      "RTPLAN baseline",
+      "machine-matched measured-IDD spectrum plus Fermi-Eyges emittance"
+    ]
+  },
+  "dicom_is_read_only": true
+}

@@ -1,0 +1,12 @@
+# Headless entry point for automatic syntax, overlap and trajectory validation.
+# It ends the linear include chain before graphics/openGL.txt, so Qt/OpenGL is
+# never initialized.
+includeFile = physics/geometry_only.txt
+
+i:Ge/CheckForOverlapsResolution = 1000
+b:Ge/CheckForOverlaps = "True"
+b:Ge/QuitIfOverlapDetected = "True"
+
+i:Ts/NumberOfThreads = 1
+i:Ts/ShowHistoryCountAtInterval = 1
+b:Ts/PauseBeforeQuit = "False"

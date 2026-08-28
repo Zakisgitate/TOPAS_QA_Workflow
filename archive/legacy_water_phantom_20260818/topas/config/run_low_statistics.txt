@@ -1,0 +1,15 @@
+# PLAN1699 Stage-8 Run 2: isolated low-statistics physical-dose test
+#
+# Legacy diagnostic: coarse checks of beam direction, field location and range.
+# This is not an absolute-dose, commissioned-machine or clinical validation.
+
+includeFile = physics/carbon_baseline.txt
+
+# The include chain uses 5 spatial anchors for each of all 53 energy layers and
+# 15,000 histories. Energy-layer totals preserve the complete-plan weights.
+# Fixed-seed, four-thread QA run.
+i:Ts/Seed = 1699
+i:Ts/NumberOfThreads = 4
+i:Ts/ShowHistoryCountAtInterval = 0
+b:Ge/CheckForOverlaps = "False"
+b:Ts/PauseBeforeQuit = "False"

@@ -1,0 +1,60 @@
+# Minimum carbon-beam model interface for the currently gated geometry
+#
+# This file provides the geometry and baseline source interface. In BASELINE
+# mode, beam/plan_generated.txt overrides energy, spot position, spot sigma and
+# histories for every DICOM spot. In COMMISSIONED mode, the same generated file
+# disables PlanCarbonBeam and defines one Emittance source per active energy
+# layer using the imported machine model.
+
+includeFile = beam/MRF4.txt
+
+# Moving source frame. PlanBeamPosition is placed upstream of isocenter by the
+# case geometry generator and its local +Z points along patient -X. For the
+# currently gated G90/HFS mapping:
+#   DICOM IEC GANTRY X -> patient +Y -> PlanBeamPosition local +Y
+#   DICOM IEC GANTRY Y -> patient +Z -> PlanBeamPosition local +X
+# plan_generated.txt therefore swaps the two DICOM spot coordinates when it
+# assigns the local translations. The signs are preserved.
+s:Ge/PlanSpotPosition/Type = "Group"
+s:Ge/PlanSpotPosition/Parent = "PlanBeamPosition"
+d:Ge/PlanSpotPosition/TransX = 0. mm
+d:Ge/PlanSpotPosition/TransY = 0. mm
+d:Ge/PlanSpotPosition/TransZ = 0. mm
+d:Ge/PlanSpotPosition/RotX = 0. deg
+d:Ge/PlanSpotPosition/RotY = 0. deg
+d:Ge/PlanSpotPosition/RotZ = 0. deg
+
+# Static source definition. The generated plan supplies all per-spot values.
+s:So/PlanCarbonBeam/Type = "Beam"
+s:So/PlanCarbonBeam/Component = "PlanSpotPosition"
+s:So/PlanCarbonBeam/BeamParticle = "GenericIon(6,12,6)"
+
+# Disabled fallback values, overridden by plan_generated.txt. TOPAS BeamEnergy
+# is the ion's TOTAL kinetic energy, so the generator uses 12 * Energy_MeV/u.
+d:So/PlanCarbonBeam/BeamEnergy = 1. MeV
+i:So/PlanCarbonBeam/NumberOfHistoriesInRun = 0
+
+# DICOM ScanningSpotSize is FWHM in air at isocenter. The generator converts
+# it to standard deviation: sigma = FWHM / (2*sqrt(2*ln(2))).
+s:So/PlanCarbonBeam/BeamPositionDistribution = "Gaussian"
+s:So/PlanCarbonBeam/BeamPositionCutoffShape = "Ellipse"
+d:So/PlanCarbonBeam/BeamPositionSpreadX = 1. mm
+d:So/PlanCarbonBeam/BeamPositionSpreadY = 1. mm
+# 40 mm exceeds 6 sigma for the largest DICOM spot (sigma = 6.078 mm), so this
+# numerical tail guard does not represent an aperture or commissioning datum.
+d:So/PlanCarbonBeam/BeamPositionCutoffX = 40. mm
+d:So/PlanCarbonBeam/BeamPositionCutoffY = 40. mm
+
+# UNCOMMISSIONED PLACEHOLDERS used only by BASELINE mode:
+# - 0% energy sigma means monoenergetic, not a measured clinical spectrum.
+# - None means no random angular divergence and parallel nominal spot axes.
+# Do not use this baseline for clinical-range/dose claims.
+u:So/PlanCarbonBeam/BeamEnergySpread = 0.
+s:So/PlanCarbonBeam/BeamAngularDistribution = "None"
+
+# DICOM VirtualSourceAxisDistances describe apparent field projection, but do
+# not supply random emittance or the energy-dependent phase-space correlations
+# needed for a commissioned source.
+# The case geometry generator records the selected source plane. Commissioned
+# mode places it at the validated phase-space plane and uses DICOM VSAD to steer
+# each nominal spot axis; the VSAD is not used as random emittance.

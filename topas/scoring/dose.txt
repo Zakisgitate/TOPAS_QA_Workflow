@@ -1,0 +1,17 @@
+# Physical-dose scorer on the TPS RPPD grid
+# DoseToMedium is accumulated across every sequential spot run and written once
+# at end of session. It is not the TPS EFFECTIVE/RBE-weighted dose.
+
+includeFile = scoring/dose_grid.txt
+
+s:Sc/TPSDoseToMedium/Quantity = "DoseToMedium"
+s:Sc/TPSDoseToMedium/Component = "TPSDoseGrid"
+sv:Sc/TPSDoseToMedium/Report = 1 "Sum"
+s:Sc/TPSDoseToMedium/OutputType = "binary"
+s:Sc/TPSDoseToMedium/OutputFile = "../topas_output/production/RTDOSE_00003_DoseToMedium_TPSGrid"
+s:Sc/TPSDoseToMedium/IfOutputFileAlreadyExists = "Exit"
+b:Sc/TPSDoseToMedium/OutputAfterRun = "False"
+b:Sc/TPSDoseToMedium/OutputToConsole = "False"
+b:Sc/TPSDoseToMedium/Visualize = "False"
+b:Sc/TPSDoseToMedium/Sparsify = "False"
+b:Sc/TPSDoseToMedium/SingleIndex = "False"

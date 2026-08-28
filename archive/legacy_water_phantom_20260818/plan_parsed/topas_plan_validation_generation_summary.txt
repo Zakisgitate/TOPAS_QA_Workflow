@@ -1,0 +1,56 @@
+PLAN1699 TOPAS plan generation summary
+=========================================
+Input spots table (read-only): /Users/jiangzhenmin/Desktop/PLAN1699/plan_parsed/spots.csv
+Input SHA-256: a201799fbc7bc13897961de7a5362d907ad2cb28a9c8484f05374a76e2d149cc
+Generated TOPAS file: /Users/jiangzhenmin/Desktop/PLAN1699/topas/beam/plan_validation_generated.txt
+Generated SHA-256: d1cc165d5e813020974f670a84437da74a3dc469caf53dd80951e39c809215be
+History allocation: /Users/jiangzhenmin/Desktop/PLAN1699/plan_parsed/plan_validation_history_allocation.csv
+
+Selection and weights
+---------------------
+Input plan spots / layers: 56349 / 53
+Generated spots / layers: 3 / 3
+All input rows generated: False
+Project full-plan generation: False
+Selected meterset-weight sum: 73.2652988434 MU
+Histories requested / allocated: 3000 / 3000
+Minimum / maximum histories per spot: 773 / 1346
+Allocation: deterministic largest remainder of N_total * W_i / sum(selected W)
+Absolute MU-to-particle conversion: NOT APPLIED
+
+Energy
+------
+Particle: GenericIon(6,12,6), fully stripped Carbon-12
+DICOM nominal energy range: 120.26 .. 265.43 MeV/u
+TOPAS total kinetic energy range: 1443.12 .. 3185.16 MeV
+Conversion: E_total = A(12) * E_MeV/u
+
+Spot coordinates and size
+-------------------------
+DICOM ScanSpotPositionMap: IEC GANTRY isocentric plane, millimetres
+DICOM ScanningSpotSize: air at isocenter, FWHM
+Conversion: sigma = FWHM / 2.3548200450309493
+IEC X -> patient +Y -> TOPAS PlanBeamPosition local +Y
+IEC Y -> patient +Z -> TOPAS PlanBeamPosition local +X
+Mapping evidence for this G90/HFS case:
+  meterset-weighted spot centroid IEC X/Y = -0.370405 / +0.064280 mm
+  TPS RPPD dose centroid relative to isocenter patient Y/Z = -0.369835 / +0.052843 mm
+
+Commissioning status
+--------------------
+IMPLEMENTED from DICOM: ion identity, energy, spot X/Y, relative weights,
+Spot FWHM-derived sigma, one painting, beam direction, isocenter.
+PLACEHOLDER: BeamEnergySpread = 0 percent (monoenergetic; uncommissioned).
+PLACEHOLDER: BeamAngularDistribution = None (no divergence/emittance).
+SOURCE PLANE: +300 mm from isocenter is a simulation plane, not physical SAD.
+KNOWN BUT NOT YET MODELED: VSAD IEC X/Y = 5397.1 / 6208.3 mm.
+NOT INCLUDED: MRF4 physical geometry/material/WET; beam/MRF4.txt is an audit stub.
+NOT INCLUDED: MU-to-primary calibration, absolute dose, transport-physics validation.
+
+Required commissioning inputs
+-----------------------------
+1. Energy/range calibration and energy-spread sigma versus nominal MeV/u.
+2. In-air spot sigma and divergence/emittance correlations versus energy/z.
+3. Validated source/phase-space plane and virtual-source implementation.
+4. MRF4 CAD/profile, pitch, material/density, placement and measured WET/IDD.
+5. Energy-dependent MU-to-primary calibration for absolute dose.

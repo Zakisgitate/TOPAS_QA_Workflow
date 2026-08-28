@@ -1,0 +1,11 @@
+{
+  "vsad_mm": -680.0,
+  "fit_method": "legacy constrained Fermi-Eyges fit used by scripts/18_build_machine3_lanzhou_draft.py",
+  "depth_mapping": "legacy project convention: reverse sigma observations after ascending-depth read",
+  "curve_count": 123,
+  "median_rmse_mm": 0.0020705678776947304,
+  "maximum_rmse_mm": 0.03967369709047999,
+  "median_isocenter_error_mm": 0.001899460172757994,
+  "maximum_isocenter_error_mm": 0.04800134961396285,
+  "status": "derived_unapproved"
+}

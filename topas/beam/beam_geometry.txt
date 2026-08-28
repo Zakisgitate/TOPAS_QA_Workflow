@@ -1,0 +1,31 @@
+# Auto-generated single-beam HFS/G90/couch0 geometry.
+# Source: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTPLAN/RTPLAN_00001.dcm
+
+# Beam model mode: COMMISSIONED (hzRoom1_90_RF4_250701)
+# Beam source plane upstream: 680 mm
+
+includeFile = geometry/isocenter.txt
+
+s:Ge/PlanBeamPosition/Type = "Group"
+s:Ge/PlanBeamPosition/Parent = "World"
+d:Ge/PlanBeamPosition/TransX = 680 mm
+d:Ge/PlanBeamPosition/TransY = 0 mm
+d:Ge/PlanBeamPosition/TransZ = 0 mm
+d:Ge/PlanBeamPosition/RotX = 0 deg
+d:Ge/PlanBeamPosition/RotY = 90 deg
+d:Ge/PlanBeamPosition/RotZ = 0 deg
+
+s:Ge/BeamAxisGuide/Type = "TsCylinder"
+s:Ge/BeamAxisGuide/Parent = "World"
+b:Ge/BeamAxisGuide/IsParallel = "True"
+d:Ge/BeamAxisGuide/RMin = 0 mm
+d:Ge/BeamAxisGuide/RMax = 1.2 mm
+d:Ge/BeamAxisGuide/HL = 680 mm
+d:Ge/BeamAxisGuide/TransX = 0 mm
+d:Ge/BeamAxisGuide/TransY = 0 mm
+d:Ge/BeamAxisGuide/TransZ = 0 mm
+d:Ge/BeamAxisGuide/RotX = 0 deg
+d:Ge/BeamAxisGuide/RotY = 90 deg
+d:Ge/BeamAxisGuide/RotZ = 0 deg
+s:Ge/BeamAxisGuide/Color = "yellow"
+s:Ge/BeamAxisGuide/DrawingStyle = "Solid"

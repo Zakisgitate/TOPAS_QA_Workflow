@@ -1,0 +1,33 @@
+TPS-TOPAS case compatibility gate
+=================================
+Project: /Users/jiangzhenmin/Desktop/PLAN1699_副本
+RTPLAN: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTPLAN/RTPLAN_00001.dcm
+RPPD: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTDOSE/RTDOSE_00003.dcm
+Patient model: WATER_PHANTOM
+
+Result: READY FOR CURRENT QA WORKFLOW
+Checks: 14 PASS, 1 WARN, 0 BLOCK
+
+[PASS] SINGLE_BEAM: beam count=1
+[PASS] CARBON_12_FULLY_STRIPPED: RadiationAtomicNumber/MassNumber/ChargeState=6/12/6; expected 6/12/6
+[PASS] PBS_SCAN_MODE: ScanMode=MODULATED
+[PASS] PATIENT_POSITION_HFS: PatientPosition=HFS
+[PASS] GANTRY_90: gantry=90.0 deg
+[PASS] COUCH_0: couch=0.0 deg
+[PASS] PITCH_ROLL_0: pitch/roll=0.0/0.0 deg
+[PASS] RPPD_AXIS_ALIGNED: ImageOrientationPatient=[1.0, 0.0, 0.0, 0.0, 1.0, 0.0]
+[PASS] RPPD_REGULAR_GRID: frames=153, PixelSpacing=[2.0, 2.0]
+[PASS] SUPPORTED_PATIENT_MODEL: mode=WATER_PHANTOM; uniform 0-HU artificial CT and rectangular External are used as a water box
+[PASS] CT_AXIAL_REGULAR_GEOMETRY: slices=195, rows/columns=512/512, ImageOrientationPatient=[1.0, 0.0, 0.0, 0.0, 1.0, 0.0], slice spacing=2.0 mm; current TsDicomPatient mapping requires regular axial identity orientation
+[PASS] EXTERNAL_ROI_SELECTION: selected ROI 1 'External', type=EXTERNAL, points=604
+[PASS] RECTANGULAR_EXTERNAL_FOR_WATER_PHANTOM: selected External rectangular XY=True
+[PASS] HU_TO_MATERIAL_CALIBRATION: not applicable: uniform water-box model
+[WARN] RANGE_MODULATOR_COMMISSIONED: range modulators=['MRF4']; physical geometry/WET is not commissioned
+
+Scope
+-----
+READY means that geometry can enter the research physical-dose shape QA workflow.
+Water phantoms use an RTSTRUCT-derived G4_WATER box. Patient CT uses TOPAS
+TsDicomPatient with a generic Schneider HU-to-material table. The generic table
+is not a substitute for institution/scanner-specific calibration or commissioning.
+The beam model and range-modulator geometry/WET also remain uncommissioned.

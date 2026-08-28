@@ -1,0 +1,16 @@
+# Auto-generated water phantom from selected RTSTRUCT External bounds.
+# Source: /Users/jiangzhenmin/Desktop/PLAN1699_副本/dicom/RTSTRUCT/RTSTRUCT_00001.dcm
+
+includeFile = geometry/world.txt
+
+s:Ge/Patient/Type = "TsBox"
+s:Ge/Patient/Parent = "World"
+s:Ge/Patient/Material = "G4_WATER"
+d:Ge/Patient/HLX = 200 mm
+d:Ge/Patient/HLY = 150 mm
+d:Ge/Patient/HLZ = 150 mm
+d:Ge/Patient/TransX = -49.5 mm
+d:Ge/Patient/TransY = 0.5 mm
+d:Ge/Patient/TransZ = 0 mm
+s:Ge/Patient/Color = "green"
+s:Ge/Patient/DrawingStyle = "WireFrame"
